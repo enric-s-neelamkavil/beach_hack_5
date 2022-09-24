@@ -6,4 +6,5 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Clash Display" sans-serif;
+  background-color: black;
 }
