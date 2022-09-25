@@ -1,0 +1,52 @@
+.home_hero_wrapper {
+  background-image: url(https://cdn.wallpapersafari.com/6/15/RzBIEg.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: color;
+  display: flex;
+  flex-direction: column;
+}
+.home_hero_wrapper_welcome_content {
+  min-height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.code_presents_wrapper {
+  color: white;
+  word-spacing: 10px;
+  font-size: 2vw;
+}
+.home_hero_wrapper_welcome_content > h1 {
+  color: #a5fa00;
+  font-weight: 100;
+  font-size: 5vw;
+  letter-spacing: 10px;
+  transition: all 1000ms;
+}
+.beach_wrapper {
+  color: white;
+  transition: all 1000ms;
+}
+.home_hero_wrapper_welcome_content > h1:hover {
+  color: white;
+  transition: all 1000ms;
+}
+.home_hero_wrapper_welcome_content > h1:hover .beach_wrapper {
+  color: #a5fa00;
+  transition: all 1000ms;
+}
+.five_wrapper {
+  font-size: 8vw;
+  color: #a5fa00;
+  transition: all 1000ms;
+}
+.home_hero_wrapper_welcome_content > h1:hover .five_wrapper {
+  color: white;
+  transition: all 1000ms;
+}

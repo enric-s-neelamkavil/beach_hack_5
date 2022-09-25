@@ -1,9 +1,5 @@
-.home_wrapper {
-  background-image: url(https://cdn.wallpapersafari.com/6/15/RzBIEg.jpg);
-  min-height: 100vh;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: rgba(0,0,0,0.5);
-  background-blend-mode: color;
+.home_wrapper{
+  display: flex;
+  flex-direction: column;
 }
+
