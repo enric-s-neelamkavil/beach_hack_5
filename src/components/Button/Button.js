@@ -1,7 +1,7 @@
 import React from "react";
 import "./Button.css";
 
-function Button({ image,content }) {
+function Button({ image, title, content }) {
   return (
     <div className="button_wrapper">
       <div className="button_wrapper_content_wrapper">
@@ -9,6 +9,7 @@ function Button({ image,content }) {
       </div>
       <a href="">
         <img src={image} alt="" />
+        <span>{title}</span>
       </a>
     </div>
   );

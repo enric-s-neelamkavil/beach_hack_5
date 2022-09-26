@@ -1,10 +1,11 @@
 .button_wrapper {
   position: relative;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.2);
+  /* background-color: rgba(0, 0, 0, 0.5); */
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
-  width: 250px;
-  height:60px;
+  width: fit-content;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,23 +13,29 @@
 }
 .button_wrapper_content_wrapper {
   position: absolute;
-  top: -45%;
+  top: -55%;
   left: 0;
 }
 .button_wrapper_content_wrapper > span {
   color: white;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 300;
 }
 .button_wrapper > a {
   width: 100%;
   text-decoration: none;
-  padding: 5px;
+  padding:30px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  gap:10px;
 }
 .button_wrapper > a > img {
-  /* height: 50px; */
-  width:70%;
+  height:40px;
+}
+.button_wrapper>a>span{
+  color:white;
+  font-weight: 900;
+  font-size: 20px;
+
 }

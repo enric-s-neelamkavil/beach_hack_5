@@ -1,16 +1,15 @@
 .home_hero_wrapper {
-  background-image: url(https://cdn.wallpapersafari.com/6/15/RzBIEg.jpg);
+  background-image: url(https://data.whicdn.com/images/290534673/original.gif);
   min-height: 100vh;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.2);
   background-blend-mode: color;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 60px;
+  position: relative;
 }
 .home_hero_wrapper_welcome_content {
   width: 100%;
@@ -18,32 +17,38 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  animation: scale_animation 1s;
+
   font-family: "Pacifico", cursive;
+  /* font-family: MassHysteria; */
   /* font-family: "Advent Pro", sans-serif; */
   /* font-family: "Berkshire Swash", cursive; */
+  font-family: "Teko", sans-serif;
+  font-family: "Reem Kufi Fun", sans-serif;
 }
-@keyframes scale_animation {
-  from {
-    transform: scale(0.5);
-  }
-  to {
-    transform: scale(1);
-  }
-}
+
 .code_presents_wrapper {
   color: white;
   word-spacing: 10px;
   font-size: 2vw;
+  animation: scale_animation 1s 100ms infinite alternate;
 }
 .home_hero_wrapper_welcome_content > h1 {
   color: #a5fa00;
-  font-weight: 100;
   font-weight: 900;
   font-size: 5vw;
   letter-spacing: 10px;
+  animation: scale_animation 1s infinite;
+  animation-play-state: running;
+  animation-direction: alternate;
   transition: all 1000ms;
-  text-shadow: 10px 12px 4px rgba(0, 0, 0, 0.6);
+}
+@keyframes scale_animation {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-30px);
+  }
 }
 .beach_wrapper {
   color: white;
@@ -58,7 +63,8 @@
   transition: all 1000ms;
 }
 .five_wrapper {
-  font-size: 8vw;
+  font-size: 7vw;
+  font-weight: 500;
   color: #a5fa00;
   transition: all 1000ms;
 }
