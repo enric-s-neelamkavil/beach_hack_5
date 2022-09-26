@@ -10,8 +10,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Clash Display" sans-serif;
-  font-family: "Pacifico", cursive;
   background-color: black;
 }
 ::-webkit-scrollbar {

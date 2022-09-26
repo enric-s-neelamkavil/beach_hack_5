@@ -4,6 +4,7 @@
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   width: 250px;
+  height:60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,12 +12,13 @@
 }
 .button_wrapper_content_wrapper {
   position: absolute;
-  top: -60%;
+  top: -45%;
   left: 0;
 }
 .button_wrapper_content_wrapper > span {
   color: white;
   font-size: 20px;
+  font-weight: 600;
 }
 .button_wrapper > a {
   width: 100%;
@@ -27,5 +29,6 @@
   justify-content: center;
 }
 .button_wrapper > a > img {
-  height: 50px;
+  /* height: 50px; */
+  width:70%;
 }

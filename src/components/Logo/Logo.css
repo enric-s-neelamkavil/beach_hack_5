@@ -1,0 +1,9 @@
+.logo_wrapper {
+  position: fixed;
+  top:10px;
+  left:10px;
+}
+.logo_wrapper>img{
+  width:100px;
+
+}
