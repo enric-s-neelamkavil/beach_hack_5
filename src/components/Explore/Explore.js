@@ -1,10 +1,13 @@
 import React from "react";
 import "./Explore.css";
+import { Link } from "react-router-dom";
 
 export default function Explore() {
   return (
-    <div className="explore_more_semi">
-      <span>EXPLORE MORE</span>
-    </div>
+    <Link to="/dashboard" className="explore_more_semi">
+      <span to="/dashboard">
+        EXPLORE MORE
+      </span>
+    </Link>
   );
 }
