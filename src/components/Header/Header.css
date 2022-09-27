@@ -3,8 +3,6 @@
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px 10px 20px;
-  box-shadow: rgba(165, 250, 0, 0.1) 0px 20px 25px -5px,
-    rgba(165, 250, 0, 0.1) 0px 10px 10px -5px;
 }
 .header_navbar {
   flex: 0.35;
