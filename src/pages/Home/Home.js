@@ -2,14 +2,12 @@ import React, { useState } from "react";
 import "./Home.css";
 import Hero from "../../components/Hero/Hero";
 import Footer from "../../components/Footer/Footer";
-import Logo from "../../components/Logo/Logo";
-import Header from "../../components/Header/Header";
+import Logospin from "../../components/Logospin/Logospin";
 
 function Home() {
   return (
     <div className="home_wrapper">
-      {/* <Header anchorlinks={["home"]}/> */}
-      <Logo />
+      <Logospin />
       <Hero />
       <Footer />
     </div>

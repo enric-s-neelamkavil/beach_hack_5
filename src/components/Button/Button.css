@@ -1,7 +1,7 @@
 .button_wrapper {
   position: relative;
-  background-color: rgba(255, 255, 255, 0.2);
-  /* background-color: rgba(0, 0, 0, 0.5); */
+  background-color: rgba(255, 255, 255, 0.3);
+  /* background-color: rgba(165, 250, 0, 0.6); */
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   width: fit-content;
@@ -24,18 +24,17 @@
 .button_wrapper > a {
   width: 100%;
   text-decoration: none;
-  padding:30px;
+  padding: 30px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap:10px;
+  gap: 10px;
 }
 .button_wrapper > a > img {
-  height:40px;
+  height: 40px;
 }
-.button_wrapper>a>span{
-  color:white;
+.button_wrapper > a > span {
+  color: white;
   font-weight: 900;
   font-size: 20px;
-
 }
