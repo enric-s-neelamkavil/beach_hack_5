@@ -1,6 +1,7 @@
 import React from "react";
 import "./Dashboard.css";
 import Header from "../../components/Header/Header";
+import Home from "../../components/Home/Home";
 
 function Dashboard() {
   return (
@@ -15,6 +16,7 @@ function Dashboard() {
           "sponsors",
         ]}
       />
+      <Home />
     </div>
   );
 }

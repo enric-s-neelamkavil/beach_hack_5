@@ -1,0 +1,24 @@
+.counter_wrapper {
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.counter_number {
+  color: #a5fa00;
+  font-size: 5vw;
+  font-weight: 900;
+  background: -webkit-linear-gradient(-90deg, rgba(0, 0, 0, 0.5) -20%, #a5fa00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.counter_plus {
+  position: absolute;
+  top: -30px;
+  color: white;
+  right: -20px;
+  font-size: 3vw;
+  font-weight: 900;
+}

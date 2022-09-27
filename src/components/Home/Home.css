@@ -1,0 +1,31 @@
+.dashboard_home_wrapper {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 30px;
+}
+.dashboard_home_title {
+  font-size: 8vw;
+  margin-top:200px;
+}
+.dashboard_home_description {
+  width: 1300px;
+  max-width: 90%;
+  text-align: center;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+.hack5wrapper {
+  color: #a5fa00;
+}
+.dashboard_home_counter_wrapper {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 100px;
+}

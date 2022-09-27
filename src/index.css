@@ -15,8 +15,9 @@ body {
 }
 ::-webkit-scrollbar {
   width: 5px;
+  display: none;
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: rgba(165, 250, 0, 0.8);
+  background: rgba(165, 250, 0, 0.3);
 }
