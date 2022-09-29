@@ -17,8 +17,8 @@ function Home() {
         nobis ex! Eligendi atque consectetur sed!
       </p>
       <div className="dashboard_home_counter_wrapper">
+        <Counter num="30" title="Coding" />
         <Counter num="60" title="Teams" />
-        <Counter num="148" title="Hours" />
         <Counter num="30" title="Colleges" />
       </div>
     </div>

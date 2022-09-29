@@ -16,9 +16,9 @@
 }
 .counter_plus {
   position: absolute;
-  top: -30px;
+  top: -15%;
   color: white;
-  right: -20px;
-  font-size: 3vw;
+  right: -15%;
+  font-size: 2.5vw;
   font-weight: 900;
 }

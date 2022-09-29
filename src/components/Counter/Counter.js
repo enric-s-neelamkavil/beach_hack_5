@@ -4,7 +4,7 @@ function Counter({ num, title }) {
   const [number, setNumber] = useState(0);
   useEffect(() => {
     if (number < num) {
-      setTimeout(incrementer, 10);
+      setTimeout(incrementer, 30);
     }
     function incrementer() {
       setNumber(number + 1);

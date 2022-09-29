@@ -9,7 +9,7 @@
 }
 .dashboard_home_title {
   font-size: 8vw;
-  margin-top:200px;
+  margin-top: 200px;
 }
 .dashboard_home_description {
   width: 1300px;
@@ -23,9 +23,10 @@
   color: #a5fa00;
 }
 .dashboard_home_counter_wrapper {
+  max-width: 1000px;
+  width: 80%;
   margin-top: 100px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 100px;
 }

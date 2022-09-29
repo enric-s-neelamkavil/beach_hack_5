@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../Logo/Logo";
 import "./Header.css";
 import Button from "../Button/Button";
-import logo from "../../assets/images/logo1.png";
+import logo from "../../assets/images/logowhite.png";
 
 function Header({ anchorlinks }) {
   return (
