@@ -14,6 +14,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.counter_title{
+  font-weight: 900;
+}
 .counter_plus {
   position: absolute;
   top: -15%;

@@ -6,6 +6,7 @@
   flex-direction: column;
   min-height: 100vh;
   gap: 30px;
+  padding:0px 
 }
 .dashboard_home_title {
   font-size: 9vw;
@@ -33,6 +34,6 @@
 }
 @media all and (max-width: 1000px) {
   .dashboard_home_title {
-    margin-top: 100px;
+    margin-top: 0px;
   }
 }
