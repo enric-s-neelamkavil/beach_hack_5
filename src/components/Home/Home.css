@@ -8,14 +8,15 @@
   gap: 30px;
 }
 .dashboard_home_title {
-  font-size: 8vw;
+  font-size: 9vw;
   margin-top: 200px;
+  font-family: "Teko", sans-serif;
 }
 .dashboard_home_description {
   width: 1300px;
   max-width: 90%;
   text-align: center;
-  word-spacing: 5px;
+  word-spacing: 1px;
   letter-spacing: 2px;
   line-height: 20px;
 }
@@ -29,4 +30,9 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+@media all and (max-width: 1000px) {
+  .dashboard_home_title {
+    margin-top: 100px;
+  }
 }

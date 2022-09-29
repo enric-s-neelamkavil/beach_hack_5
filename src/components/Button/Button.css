@@ -38,3 +38,20 @@
   font-weight: 900;
   font-size: 20px;
 }
+@media all and (max-width: 1000px) {
+  .button_wrapper {
+    transform: scale(0.9);
+  }
+}
+@media all and (max-width: 500px) {
+  .button_wrapper > a > img {
+    height:30px;
+  }
+  .button_wrapper_content_wrapper {
+    top: -40%;
+  }
+  .button_wrapper_content_wrapper > span {
+    font-size: 15px;
+    font-weight: 900;
+  }
+}

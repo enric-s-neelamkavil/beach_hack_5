@@ -9,12 +9,9 @@ function Home() {
         BEACH <span className="hack5wrapper">HACK 5</span>
       </h1>
       <p className="dashboard_home_description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-        consequatur incidunt distinctio vel ad ut cumque rem et earum voluptatum
-        nihil commodi voluptates dolorem eos adipisci, repudiandae, dolorum
-        expedita accusamus magnam ducimus nemo. Eligendi deleniti asperiores
-        sunt perferendis alias delectus, minima inventore necessitatibus eius
-        nobis ex! Eligendi atque consectetur sed!
+        Presenting South India's first ever beach hackathon, providing a platform
+        for students to solve various problems faced by our society while
+        simultaneously improving their critical and creative thinking.
       </p>
       <div className="dashboard_home_counter_wrapper">
         <Counter num="30" title="Coding" />

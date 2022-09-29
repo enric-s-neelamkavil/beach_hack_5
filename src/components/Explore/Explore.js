@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Explore() {
   return (
     <Link to="/dashboard" className="explore_more_semi">
-      <span>EXPLORE MORE</span>
+      <span>DIVE IN</span>
     </Link>
   );
 }

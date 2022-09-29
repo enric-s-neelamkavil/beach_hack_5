@@ -23,7 +23,6 @@
   /* font-family: "Advent Pro", sans-serif; */
   /* font-family: "Berkshire Swash", cursive; */
   font-family: "Teko", sans-serif;
-  font-family: "Reem Kufi Fun", sans-serif;
 }
 
 .code_presents_wrapper {
@@ -64,7 +63,6 @@
 }
 .five_wrapper {
   font-size: 7vw;
-  font-weight: 500;
   color: #a5fa00;
   transition: all 1000ms;
 }
@@ -77,4 +75,19 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
+}
+@media all and (max-width: 500px) {
+  .home_hero_wrapper_button_wrapper {
+    gap: 0px;
+  }
+  .home_hero_wrapper_welcome_content > h1 {
+    font-size: 14vw;
+    letter-spacing:0;
+  }
+  .five_wrapper {
+    font-size: 14vw;
+  }
+  .code_presents_wrapper {
+    font-size: 25px;
+  }
 }
