@@ -3,10 +3,12 @@ import Logo from "../Logo/Logo";
 import "./Header.css";
 import Button from "../Button/Button";
 import logo from "../../assets/images/logowhite.png";
+import bg from "../../assets/images/bg.svg";
 
 function Header({ anchorlinks }) {
   return (
     <header className="header">
+      <img src={bg} alt="" />
       <Logo logo={logo} />
       <nav className="header_navbar">
         <ul>
@@ -17,7 +19,7 @@ function Header({ anchorlinks }) {
           ))}
         </ul>
       </nav>
-      <Button  title="Register" />
+      <Button title="Register" />
     </header>
   );
 }
