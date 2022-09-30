@@ -10,7 +10,11 @@
   color: #a5fa00;
   font-size: 5vw;
   font-weight: 900;
-  background: -webkit-linear-gradient(-90deg, rgba(0, 0, 0, 0.5) -20%, #a5fa00);
+  background: -webkit-linear-gradient(
+    -90deg,
+    var(--tertiary) 40%,
+    var(--primary)
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Rubik", sans-serif;

@@ -4,7 +4,7 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 5px solid #a5fa00;
+  border: 5px solid var(--primary);
   display: grid;
   grid-template-rows: repeat(5, 1fr);
   place-items: center;
@@ -14,7 +14,7 @@
   letter-spacing: 2px;
 }
 .explore_more_semi > span {
-  color: white;
+  color: var(--secondary);
   grid-row: 2/3;
   font-size: 18px;
   font-weight: 900;

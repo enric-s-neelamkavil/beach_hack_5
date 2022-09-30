@@ -1,12 +1,12 @@
 .dashboard_home_wrapper {
-  color: white;
+  color: var(--secondary);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   min-height: 100vh;
   gap: 30px;
-  padding:0px 
+  padding: 0px;
 }
 .dashboard_home_title {
   font-size: 9vw;
@@ -22,7 +22,7 @@
   line-height: 20px;
 }
 .hack5wrapper {
-  color: #a5fa00;
+  color: var(--primary);
 }
 .dashboard_home_counter_wrapper {
   max-width: 1000px;

@@ -23,3 +23,38 @@ body {
   border-radius: 10px;
   background: rgba(165, 250, 0, 0.3);
 }
+:root {
+  /* --primary: #a5fa00; */
+  --primary: #08baeb;
+  --primary-shade-one: rgba(8, 186, 235, 0.1);
+  --primary-shade-two: rgba(8, 186, 235, 0.2);
+  --primary-shade-three: rgba(8, 186, 235, 0.3);
+  --primary-shade-four: rgba(8, 186, 235, 0.4);
+  --primary-shade-five: rgba(8, 186, 235, 0.5);
+  --primary-shade-six: rgba(8, 186, 235, 0.6);
+  --primary-shade-seven: rgba(8, 186, 235, 0.7);
+  --primary-shade-eight: rgba(8, 186, 235, 0.8);
+  --primary-shade-nine: rgba(8, 186, 235, 0.9);
+  --secondary: white;
+  --tertiary: #006ead;
+  --tertiary-shade-one: rgba(0, 110, 173, 0.1);
+  --tertiary-shade-two: rgba(0, 110, 173, 0.2);
+  --tertiary-shade-three: rgba(0, 110, 173, 0.3);
+  --tertiary-shade-four: rgba(0, 110, 173, 0.4);
+  --tertiary-shade-five: rgba(0, 110, 173, 0.5);
+  --tertiary-shade-six: rgba(0, 110, 173, 0.6);
+  --tertiary-shade-seven: rgba(0, 110, 173, 0.7);
+  --tertiary-shade-eight: rgba(0, 110, 173, 0.8);
+  --tertiary-shade-nine: rgba(0, 110, 173, 0.9);
+  /* --tertiary: black; */
+  --quarternary: #fdd672;
+  --quarternary-shade-one: rgba(253, 214, 114, 0.1);
+  --quarternary-shade-two: rgba(253, 214, 114, 0.2);
+  --quarternary-shade-three: rgba(253, 214, 114, 0.3);
+  --quarternary-shade-four: rgba(253, 214, 114, 0.4);
+  --quarternary-shade-five: rgba(253, 214, 114, 0.5);
+  --quarternary-shade-six: rgba(253, 214, 114, 0.6);
+  --quarternary-shade-seven: rgba(253, 214, 114, 0.7);
+  --quarternary-shade-eight: rgba(253, 214, 114, 0.8);
+  --quarternary-shade-nine: rgba(253, 214, 114, 0.9);
+}

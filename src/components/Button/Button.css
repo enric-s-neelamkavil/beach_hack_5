@@ -33,7 +33,7 @@
   height: 40px;
 }
 .button_wrapper > a > span {
-  color: white;
+  color: var(--secondary);
   font-weight: 700;
   font-size: 20px;
 }
@@ -44,7 +44,7 @@
 }
 @media all and (max-width: 500px) {
   .button_wrapper > a > img {
-    height:30px;
+    height: 30px;
   }
   .button_wrapper_content_wrapper {
     top: -40%;

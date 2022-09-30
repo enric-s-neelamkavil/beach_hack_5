@@ -26,7 +26,7 @@
   position: fixed;
   top: 1.5%;
   right: 2%;
-  color: #a5fa00;
+  color: var(--primary);
   font-size: 30px;
   z-index: 9999;
 }
@@ -41,7 +41,7 @@
 }
 .hamburger_wrapper_navbar > ul > li > a {
   text-decoration: none;
-  color: #a5fa00;
+  color: var(--primary);
   text-transform: capitalize;
   font-size: 1.1rem;
   font-weight: 600;
