@@ -1,6 +1,7 @@
 import React from "react";
 import Eventcard from "./Eventcard/Eventcard";
 import "./Events.css";
+import { event } from "./Eventdata";
 
 function Events() {
   return (
@@ -8,7 +9,15 @@ function Events() {
       <div className="events_wrapper_inner_wrapper">
         <h2>Events</h2>
         <div>
-          <Eventcard />
+          {event.map((eve) => (
+            <Eventcard
+              image={eve.image}
+              title={eve.title}
+              description={eve.description}
+              url={eve.url}
+              isActive={eve.isActive}
+            />
+          ))}
         </div>
       </div>
     </div>
