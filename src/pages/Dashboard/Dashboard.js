@@ -5,6 +5,7 @@ import Home from "../../components/Home/Home";
 import Hamburger from "../../components/Hamburger/Hamburger";
 import About from "../../components/About/About";
 import Schedule from "../../components/Schedule/Schedule";
+import Sidenav from "../../components/Sidenav/Sidenav";
 
 function Dashboard() {
   return (
@@ -32,6 +33,7 @@ function Dashboard() {
       <Home />
       {/* <About /> */}
       <Schedule />
+      <Sidenav />
     </div>
   );
 }

@@ -28,8 +28,11 @@
 .code_presents_wrapper {
   color: white;
   word-spacing: 10px;
-  font-size: 2vw;
+  font-size: 1.5vw;
   animation: scale_animation 1s 100ms infinite alternate;
+  font-family: "Manrope", sans-serif;
+  font-weight: 900;
+
 }
 .home_hero_wrapper_welcome_content > h1 {
   color: #a5fa00;

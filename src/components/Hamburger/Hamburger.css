@@ -8,7 +8,7 @@
   align-items: flex-end;
   flex-direction: column;
   justify-content: space-between;
-  padding: 30px 20px 30px 20px;
+  padding: 30px 20px 25px 20px;
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   border-radius: 10px;
@@ -43,7 +43,8 @@
   text-decoration: none;
   color: #a5fa00;
   text-transform: capitalize;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 @media all and (min-width: 1000px) {
   .hamburger {

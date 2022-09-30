@@ -13,8 +13,11 @@
   background: -webkit-linear-gradient(-90deg, rgba(0, 0, 0, 0.5) -20%, #a5fa00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: "Rubik", sans-serif;
+  font-family: "Kanit", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
-.counter_title{
+.counter_title {
   font-weight: 900;
 }
 .counter_plus {

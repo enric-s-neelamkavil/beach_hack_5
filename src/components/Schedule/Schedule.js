@@ -5,7 +5,7 @@ import { data } from "./Scheduledata";
 
 function Schedule() {
   return (
-    <div className="dashboard_schedule_wrapper">
+    <div className="dashboard_schedule_wrapper" id="schedule">
       {data.map((dat) => (
         <Schedulesingle
           date={dat.date}

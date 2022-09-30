@@ -5,6 +5,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px 20px 0px 20px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 65%);
+  z-index: 9999;
 }
 .header_navbar {
   flex: 0.35;
