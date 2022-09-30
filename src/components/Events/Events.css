@@ -1,0 +1,11 @@
+.events_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.events_wrapper_inner_wrapper {
+  max-width: 1300px;
+  width: 100%;
+  /* background-color: aliceblue; */
+  
+}

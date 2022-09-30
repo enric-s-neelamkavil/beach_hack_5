@@ -13,7 +13,7 @@ function Sidenav() {
       <a href="">
         <img src={discord} alt="" />
       </a>
-      <a href="" style={{ background: "rgba(165, 250, 0, 0.2)" }}>
+      <a href="#home" style={{ background: "rgba(165, 250, 0, 0.2)" }}>
         <FaArrowUp className="arrow_to_top" />
       </a>
     </div>
