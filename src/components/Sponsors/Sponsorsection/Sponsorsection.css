@@ -1,0 +1,18 @@
+.sponsor_section_wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sponsor_section_wrapper > h2 {
+  width: fit-content;
+  align-self: flex-start;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+.sponsor_section_inner_wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+}

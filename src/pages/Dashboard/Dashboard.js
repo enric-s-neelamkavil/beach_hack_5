@@ -7,6 +7,7 @@ import Schedule from "../../components/Schedule/Schedule";
 import Sidenav from "../../components/Sidenav/Sidenav";
 import Events from "../../components/Events/Events";
 import Footer from "../../components/Footer/Footer";
+import Sponsors from "../../components/Sponsors/Sponsors";
 
 function Dashboard() {
   return (
@@ -32,11 +33,11 @@ function Dashboard() {
         ]}
       />
       <Home />
-      {/* <About /> */}
-      <Schedule />
+      {/* <Schedule /> */}
       <Sidenav />
-      <Events />
-      <Footer />
+      {/* <Events /> */}
+      <Sponsors />
+      {/* <Footer /> */}
     </div>
   );
 }

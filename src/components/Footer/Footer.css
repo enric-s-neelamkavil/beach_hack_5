@@ -32,7 +32,7 @@
 }
 .footer_inner_wrapper_part_one > ul > li > a {
   text-decoration: none;
-  color: var(--quarternary);
+  color: var(--secondary);
   font-size: 1.4rem;
   display: flex;
   align-items: center;
