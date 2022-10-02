@@ -18,3 +18,15 @@
   row-gap: 100px;
   place-items: center;
 }
+@media all and (max-width: 1000px) {
+  .events_wrapper_inner_wrapper > div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media all and (max-width: 650px) {
+  .events_wrapper_inner_wrapper > div {
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
