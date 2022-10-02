@@ -1,0 +1,50 @@
+.leaderboard_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.leaderboard_wrapper_inner_wrapper {
+  display: flex;
+  gap: 20px;
+}
+.podium {
+  border-radius: 20px;
+  align-self: flex-end;
+  min-width: 200px;
+  width: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  background-color: rgba(192, 192, 192, 0.2);
+  color: white;
+}
+.podium_absolute_image {
+  position: absolute;
+  top: -90px;
+  width: 200px;
+}
+.first {
+  height: 500px;
+}
+.first > .podium_content_image {
+  width: 60%;
+}
+.second {
+  height: 400px;
+}
+.second > .podium_content_image {
+  width: 70%;
+}
+.third {
+  height: 300px;
+}
+.third > .podium_content_image {
+  width: 50%;
+}
+.podium_content_image {
+  width: 100px;
+  /* height:50px; */
+}

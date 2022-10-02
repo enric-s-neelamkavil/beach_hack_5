@@ -35,3 +35,12 @@ export const event = [
     isActive: "true",
   },
 ];
+export const games = [
+  {
+    image: `https://w0.peakpx.com/wallpaper/495/863/HD-wallpaper-random-awesome-blue-games-nerds-red.jpg`,
+    title: `Web Develpment`,
+    description: `Lorem Ipsum is simply dummy text of the printing and typesetting`,
+    url: "",
+    isActive: "true",
+  },
+];

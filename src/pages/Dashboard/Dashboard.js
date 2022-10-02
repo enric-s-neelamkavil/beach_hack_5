@@ -8,6 +8,7 @@ import Sidenav from "../../components/Sidenav/Sidenav";
 import Events from "../../components/Events/Events";
 import Footer from "../../components/Footer/Footer";
 import Sponsors from "../../components/Sponsors/Sponsors";
+import Leaderboard from "../../components/Leaderboard/Leaderboard";
 
 function Dashboard() {
   return (
@@ -33,11 +34,12 @@ function Dashboard() {
         ]}
       />
       <Home />
-      <Schedule />
-      <Sidenav />
-      <Events />wfslldsv s
-      <Sponsors />
-      <Footer />
+      {/* <Schedule /> */}
+      {/* <Sidenav /> */}
+      <Events />
+      {/* <Sponsors /> */}
+      {/* <Footer /> */}
+      {/* <Leaderboard /> */}
     </div>
   );
 }
