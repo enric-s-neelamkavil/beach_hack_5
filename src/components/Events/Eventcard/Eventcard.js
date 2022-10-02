@@ -1,5 +1,6 @@
 import React from "react";
 import "./Eventcard.css";
+import register from "../../../assets/images/register.png";
 
 function Eventcard({ image, title, description, url, isActive }) {
   return (
@@ -10,7 +11,9 @@ function Eventcard({ image, title, description, url, isActive }) {
       <div className="eventcard_wrapper_content_wrapper">
         <h3>{title}</h3>
         <p>{description}</p>
-        <a href={isActive ? url : ""}>{isActive ? "REGISTER" : "CLOSED"}</a>
+        <a href={isActive ? url : ""}>
+          {isActive ? <img src={register} alt="" srcset="" /> : "CLOSED"}
+        </a>
       </div>
     </div>
   );

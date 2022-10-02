@@ -16,30 +16,31 @@ function Dashboard() {
       <Hamburger
         anchorlinks={[
           "home",
-          "about",
-          "games",
+          "happenings",
           "schedule",
           "leaderboard",
           "sponsors",
+          "about",
         ]}
       />
       <Header
         anchorlinks={[
           "home",
-          "about",
-          "games",
+          "happenings",
           "schedule",
           "leaderboard",
           "sponsors",
+          "about",
         ]}
       />
       <Home />
-      {/* <Schedule /> */}
-      {/* <Sidenav /> */}
       <Events />
-      {/* <Sponsors /> */}
-      {/* <Footer /> */}
-      {/* <Leaderboard /> */}
+      <Schedule />
+      <Sidenav />
+      <Leaderboard />
+      <Sponsors />
+      <Footer />
+    
     </div>
   );
 }
