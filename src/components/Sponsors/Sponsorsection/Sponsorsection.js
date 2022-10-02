@@ -2,16 +2,15 @@ import React from "react";
 import Sponsorcard from "../Sponsorcard/Sponsorcard";
 import "./Sponsorsection.css";
 
-function Sponsorsection({ tier, details }) {
-  console.log(tier, details);
+function Sponsorsection({ tier, sponsorlist, color }) {
   return (
     <div className="sponsor_section_wrapper">
-      <h2>{tier}</h2>
-      {/* {details.map((spo) => (
-        <div className="sponsor_section_inner_wrapper">
-          <Sponsorcard />
-        </div>
-      ))} */}
+      <h2 style={{ color: color }}>{tier}</h2>
+      <div className="sponsor_section_inner_wrapper">
+        {sponsorlist.map((sponsors) => (
+          <Sponsorcard image={sponsors.img} name={sponsors.name} />
+        ))}
+      </div>
     </div>
   );
 }

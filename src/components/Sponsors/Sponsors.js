@@ -9,7 +9,11 @@ function Sponsors() {
     <div className="sponsors_wrapper">
       <div className="sponsors_inner_wrapper">
         {sponsor.map((spon) => (
-          <Sponsorsection tier={spon.tier} />
+          <Sponsorsection
+            tier={spon.tier}
+            sponsorlist={spon.sponsorlist}
+            color={spon.color}
+          />
         ))}
       </div>
     </div>

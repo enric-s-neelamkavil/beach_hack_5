@@ -1,21 +1,44 @@
 .sponsor_card_wrapper {
   min-width: 200px;
+  width: 80%;
   display: flex;
   gap: 20px;
-  padding: 20px;
+  padding: 40px;
   border-radius: 20px;
-  border: 2px solid var(--primary);
   align-items: center;
   justify-content: space-around;
-  /* background-color: rgba(255, 255, 255, 0.2); */
+  background-color: rgba(255, 255, 255, 0.1);
+  position: relative;
 }
 .sponsor_card_wrapper > img {
   height: 50px;
+  filter: grayscale(100);
 }
-.sponsor_card_wrapper > h3 {
-  text-transform: uppercase;
-  color: var(--tertiary);
+.sponsor_card_name_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-transform: capitalize;
+  color: var(--secondary);
   font-weight: 900;
   font-size: 20px;
-  font-family: "Teko", sans-serif;
+  overflow: hidden;
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 20px;
+  visibility: hidden;
+
+  transition: all 200ms ease 0s;
+}
+.sponsor_card_wrapper:hover .sponsor_card_wrapper > img {
+  filter: grayscale(0);
+}
+.sponsor_card_wrapper:hover .sponsor_card_name_wrapper {
+  visibility: visible;
+  transition: all 200ms ease 0s;
 }

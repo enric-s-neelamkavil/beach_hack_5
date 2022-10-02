@@ -2,11 +2,13 @@ import React from "react";
 import "./Sponsorcard.css";
 import logo from "../../../assets/images/discord.png";
 
-function Sponsorcard() {
+function Sponsorcard({ image, name }) {
   return (
     <div className="sponsor_card_wrapper">
-      <img src={logo} alt="" />
-      <h3>name</h3>
+      <img src={image} alt="" />
+      <div className="sponsor_card_name_wrapper">
+        <h3>{name}</h3>
+      </div>
     </div>
   );
 }

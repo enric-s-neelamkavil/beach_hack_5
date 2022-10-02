@@ -33,11 +33,11 @@ function Dashboard() {
         ]}
       />
       <Home />
-      {/* <Schedule /> */}
+      <Schedule />
       <Sidenav />
-      {/* <Events /> */}
+      <Events />wfslldsv s
       <Sponsors />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

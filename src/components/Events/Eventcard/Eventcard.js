@@ -1,6 +1,5 @@
 import React from "react";
 import "./Eventcard.css";
-import { RiExternalLinkFill } from "react-icons/ri";
 
 function Eventcard({ image, title, description, url, isActive }) {
   return (
@@ -11,9 +10,7 @@ function Eventcard({ image, title, description, url, isActive }) {
       <div className="eventcard_wrapper_content_wrapper">
         <h3>{title}</h3>
         <p>{description}</p>
-        <a href={isActive ? url : ""}>
-          {isActive ? <RiExternalLinkFill /> : "CLOSED"}
-        </a>
+        <a href={isActive ? url : ""}>{isActive ? "REGISTER" : "CLOSED"}</a>
       </div>
     </div>
   );
