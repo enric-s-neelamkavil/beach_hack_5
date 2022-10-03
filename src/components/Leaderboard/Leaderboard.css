@@ -2,6 +2,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  padding-top: 100px;
 }
 .leaderboard_wrapper_inner_wrapper {
   display: flex;
@@ -46,5 +47,22 @@
 }
 .podium_content_image {
   width: 100px;
-  /* height:50px; */
+}
+@media all and (max-width: 1000px) {
+  .leaderboard_wrapper {
+    padding-top: 0px;
+  }
+  .leaderboard_wrapper_inner_wrapper {
+    transform: scale(0.7);
+  }
+}
+@media all and (max-width: 675px) {
+  .leaderboard_wrapper_inner_wrapper {
+    transform: scale(0.5);
+  }
+}
+@media all and (max-width: 480px) {
+  .leaderboard_wrapper_inner_wrapper {
+    transform: scale(0.35);
+  }
 }

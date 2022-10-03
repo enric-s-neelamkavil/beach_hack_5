@@ -56,3 +56,70 @@
   border-radius: inherit;
   background-color: black;
 }
+@media all and (max-width: 700px) {
+  .schedule_single_wrapper_content_wrapper {
+    padding: 15px;
+    width: 250px;
+    transform: translateX(135px);
+  }
+  .schedule_single_wrapper_content_wrapper_left {
+    transform: translateX(-135px);
+  }
+  .schedule_single_wrapper_path {
+    left: -10px;
+    top: -20px;
+    height: calc(100% + 60px);
+  }
+  .schedule_single_wrapper_path_left {
+    left: calc(260px);
+  }
+  .schedule_single_wrapper_content_wrapper > span {
+    font-size: 1.5rem;
+  }
+  .schedule_single_wrapper_content_wrapper > p {
+    font-size: 0.8rem;
+  }
+}
+@media all and (max-width: 550px) {
+  .schedule_single_wrapper_content_wrapper {
+    width: 150px;
+    gap:5px;
+    transform: translateX(70px);
+  }
+  .schedule_single_wrapper_content_wrapper_left {
+    transform: translateX(-80px);
+  }
+  .schedule_single_wrapper_path {
+    left: 0px;
+    height: calc(100% + 50px);
+  }
+  .schedule_single_wrapper_path_left {
+    left: calc(150px);
+  }
+  .schedule_single_wrapper_content_wrapper > span {
+    font-size: 1.2rem;
+  }
+  .schedule_single_wrapper_content_wrapper > h3 {
+    font-size: 1.1rem;
+  }
+  .schedule_single_wrapper_content_wrapper > p {
+    font-size: 0.8rem;
+  }
+  .schedule_single_wrapper_path_big_round {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: var(--primary);
+    left: -7px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .schedule_single_wrapper_path_big_round_small_round {
+    width: 8px;
+    height: 8px;
+    border-radius: inherit;
+    background-color: black;
+  }
+}
