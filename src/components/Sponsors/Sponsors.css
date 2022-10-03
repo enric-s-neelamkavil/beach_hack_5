@@ -2,6 +2,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  padding-top: 100px;
 }
 .sponsors_inner_wrapper {
   width: 100%;
