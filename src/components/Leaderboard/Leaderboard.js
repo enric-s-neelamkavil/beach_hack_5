@@ -9,7 +9,7 @@ import thirdcontent from "../../assets/images/thirdcontent.png";
 
 function Leaderboard() {
   return (
-    <div className="leaderboard_wrapper">
+    <div className="leaderboard_wrapper" id="leaderboard">
       <div className="leaderboard_wrapper_inner_wrapper">
         <div className="podium third">
           <img src={third} alt="" className="podium_absolute_image" />

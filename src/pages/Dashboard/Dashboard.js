@@ -20,7 +20,7 @@ function Dashboard() {
           "schedule",
           "leaderboard",
           "sponsors",
-          "about",
+          // "about",
         ]}
       />
       <Header
@@ -30,7 +30,7 @@ function Dashboard() {
           "schedule",
           "leaderboard",
           "sponsors",
-          "about",
+          // "about",
         ]}
       />
       <Home />

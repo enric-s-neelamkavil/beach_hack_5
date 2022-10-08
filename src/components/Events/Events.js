@@ -7,7 +7,7 @@ import Sectiontitle from "../Sectiontitle/Sectiontitle";
 
 function Events() {
   return (
-    <div className="events_wrapper">
+    <div className="events_wrapper" id="happenings">
       <div className="events_wrapper_inner_wrapper">
         <Sectiontitle title="HAPPENINGS" />
         <div>

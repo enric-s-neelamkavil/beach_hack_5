@@ -17,6 +17,7 @@
   -webkit-backdrop-filter: blur(7.5px);
   gap: 30px;
   transition: all 200ms ease 0s;
+  z-index: 9999;
 }
 .hamburger_wrapper_active {
   right: 40px;

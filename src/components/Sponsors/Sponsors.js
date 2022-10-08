@@ -7,7 +7,7 @@ import { sponsor } from "./Sponsordata";
 
 function Sponsors() {
   return (
-    <div className="sponsors_wrapper">
+    <div className="sponsors_wrapper" id="sponsors">
       <Sectiontitle title="SPONSORS"/>
       <div className="sponsors_inner_wrapper">
         {sponsor.map((spon) => (
