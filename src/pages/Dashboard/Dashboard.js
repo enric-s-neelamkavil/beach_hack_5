@@ -40,7 +40,6 @@ function Dashboard() {
       <Leaderboard />
       <Sponsors />
       <Footer />
-    
     </div>
   );
 }
