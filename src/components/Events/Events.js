@@ -3,13 +3,14 @@ import Eventcard from "./Eventcard/Eventcard";
 import "./Events.css";
 import { event, games } from "./Eventdata";
 import Gamecard from "./Gamecard/Gamecard";
+import Sectiontitle from "../Sectiontitle/Sectiontitle";
 
 function Events() {
   return (
     <div className="events_wrapper">
       <div className="events_wrapper_inner_wrapper">
+        <Sectiontitle title="HAPPENINGS"/>
         <div>
-          <h2>Events</h2>
           {event.map((eve) => (
             <Eventcard
               image={eve.image}
@@ -21,7 +22,6 @@ function Events() {
           ))}
         </div>
         <div>
-          <h2>Games</h2>
           {games.map((game) => (
             <Gamecard
               image={game.image}

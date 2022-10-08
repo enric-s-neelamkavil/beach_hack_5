@@ -1,0 +1,16 @@
+.section_title_wrapper_yay {
+  width: 100%;
+  display: flex !important;
+  justify-content: center;
+}
+.section_title_wrapper_yay > h2 {
+  color: var(--primary);
+  align-self: center;
+  font-size: 3.5vw;
+}
+@media all and (max-width:900px)
+{
+  .section_title_wrapper_yay>h2{
+    font-size: 5vw;
+  }
+}
