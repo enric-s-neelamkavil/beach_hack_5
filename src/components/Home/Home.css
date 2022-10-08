@@ -36,4 +36,9 @@
   .dashboard_home_title {
     margin-top: 0px;
   }
+  .dashboard_home_description {
+    font-size: 11px;
+    line-height: normal;
+    letter-spacing: 1;
+  }
 }

@@ -8,7 +8,7 @@
 }
 .counter_number {
   color: #a5fa00;
-  font-size: 5vw;
+  font-size: 6vw;
   font-weight: 900;
   background: -webkit-linear-gradient(
     -90deg,
@@ -26,9 +26,9 @@
 }
 .counter_plus {
   position: absolute;
-  top: -15%;
+  top: -10%;
   color: white;
-  right: -15%;
+  right: -10%;
   font-size: 2.5vw;
   font-weight: 900;
 }
