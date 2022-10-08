@@ -5,7 +5,7 @@ import "./Gamecard.css";
 function Gamecard({ image, title, url, isActive }) {
   return (
     <div className="gamecard">
-      <img src={image} alt="" />
+      <img src={image} alt="" loading="lazy"/>
       <h3>{title}</h3>
       <p>TOURNAMENT</p>
       <a href={url}>

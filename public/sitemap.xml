@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.beachhack.in/</loc>
+  <lastmod>2022-10-08T09:59:46+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.beachhack.in/dashboard</loc>
+  <lastmod>2022-10-08T09:59:46+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.beachhack.in/dashboard#home</loc>
+  <lastmod>2022-10-08T09:59:46+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.beachhack.in/dashboard#happenings</loc>
+  <lastmod>2022-10-08T09:59:46+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.beachhack.in/dashboard#schedule</loc>
+  <lastmod>2022-10-08T09:59:46+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.beachhack.in/dashboard#leaderboard</loc>
+  <lastmod>2022-10-08T09:59:46+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.beachhack.in/dashboard#sponsors</loc>
+  <lastmod>2022-10-08T09:59:46+00:00</lastmod>
+</url>
+
+</urlset>
