@@ -7,7 +7,7 @@ import Sectiontitle from "../Sectiontitle/Sectiontitle";
 function Schedule() {
   return (
     <>
-      <Sectiontitle title="SCHDEULE"/>
+      <Sectiontitle title="SCHEDULE"/>
       <div className="dashboard_schedule_wrapper" id="schedule">
         {data.map((dat) => (
           <Schedulesingle
