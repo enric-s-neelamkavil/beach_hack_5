@@ -1,11 +1,12 @@
 .footer_wrapper {
-  height:400px;
   padding-top: 100px;
   width: 100%;
   display: flex;
   justify-content: center;
   background: url(../../assets/images/footerbg.png);
-  background-size: 100% auto;
+  background-size: cover;
+  background-position: center top;
+
 }
 .footer_inner_wrapper {
   max-width: 1300px;

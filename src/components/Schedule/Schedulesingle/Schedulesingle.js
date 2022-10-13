@@ -22,7 +22,7 @@ function Schedulesingle({ date, title, description, flag }) {
         </div>
         <span>{date}</span>
         <h3>{title}</h3>
-        <p>{description}</p>
+        {description && <p>{description}</p>}
       </div>
     </div>
   );

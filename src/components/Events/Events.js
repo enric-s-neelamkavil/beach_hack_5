@@ -11,16 +11,6 @@ function Events() {
       <div className="events_wrapper_inner_wrapper">
         <Sectiontitle title="HAPPENINGS" />
         <div>
-          {games.map((game) => (
-            <Gamecard
-              image={game.image}
-              title={game.title}
-              url={game.url}
-              isActive={game.isActive}
-            />
-          ))}
-        </div>
-        <div>
           {event.map((eve) => (
             <Eventcard
               image={eve.image}
@@ -28,6 +18,16 @@ function Events() {
               description={eve.description}
               url={eve.url}
               isActive={eve.isActive}
+            />
+          ))}
+        </div>
+        <div>
+          {games.map((game) => (
+            <Gamecard
+              image={game.image}
+              title={game.title}
+              url={game.url}
+              isActive={game.isActive}
             />
           ))}
         </div>
