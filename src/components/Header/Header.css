@@ -14,7 +14,7 @@
   );
   z-index: 9999;
 }
-.header > img {
+.header_fixed_image {
   rotate: 90deg;
   width: 350px;
   height: 250px;
@@ -23,6 +23,9 @@
   z-index: 0;
   left: -70px;
   top: 0;
+}
+.header_fixed_image_active {
+  display: none;
 }
 .header_navbar {
   flex: 0.35;
