@@ -1,15 +1,8 @@
 export const event = [
   {
-    image: require(`../../assets/images/tequiz.png`),
-    title: `Te Quiz`,
-    description: ``,
-    url: "",
-    isActive: "true",
-  },
-  {
-    image: require(`../../assets/images/codathon.png`),
+    image: require(`../../assets/images/codathon1.png`),
     title: `Code-A-Thon`,
-    description: ``,
+    description: `lorem ipsum ammet hello hii this is beach hack promotional event.`,
     url: "",
     isActive: "true",
   },
