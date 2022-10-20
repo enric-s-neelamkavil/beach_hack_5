@@ -3,7 +3,6 @@ import "./Eventcard.css";
 import register from "../../../assets/images/register.png";
 
 function Eventcard({ image, title, description, url, isActive }) {
-  console.log(isActive);
   return (
     <div className="eventcard_wrapper">
       <div className="eventcard_wrapper_image_wrapper">

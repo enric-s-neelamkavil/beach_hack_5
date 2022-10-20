@@ -3,12 +3,11 @@ import "./Sponsors.css";
 import Sponsorsection from "./Sponsorsection/Sponsorsection";
 import "./Sponsordata";
 import Sectiontitle from "../Sectiontitle/Sectiontitle";
-import { sponsor } from "./Sponsordata";
 
-function Sponsors() {
+function Sponsors({ sponsor }) {
   return (
     <div className="sponsors_wrapper" id="sponsors">
-      <Sectiontitle title="SPONSORS"/>
+      <Sectiontitle title="SPONSORS" />
       <div className="sponsors_inner_wrapper">
         {sponsor.map((spon) => (
           <Sponsorsection

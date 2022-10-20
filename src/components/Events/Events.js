@@ -1,25 +1,26 @@
 import React, { useState } from "react";
 import Eventcard from "./Eventcard/Eventcard";
 import "./Events.css";
-import { event, games } from "./Eventdata";
 import Gamecard from "./Gamecard/Gamecard";
 import Sectiontitle from "../Sectiontitle/Sectiontitle";
 
-function Events() {
+function Events({ event, games }) {
   return (
     <div className="events_wrapper" id="happenings">
       <div className="events_wrapper_inner_wrapper">
         <Sectiontitle title="HAPPENINGS" />
         <div>
-          {event.map((eve) => (
-            <Eventcard
-              image={eve.image}
-              title={eve.title}
-              description={eve.description}
-              url={eve.url}
-              isActive={eve.isActive}
-            />
-          )).reverse()}
+          {event
+            .map((eve) => (
+              <Eventcard
+                image={eve.image}
+                title={eve.title}
+                description={eve.description}
+                url={eve.url}
+                isActive={eve.isActive}
+              />
+            ))
+            .reverse()}
         </div>
         <div>
           {games.map((game) => (
