@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Eventcard from "./Eventcard/Eventcard";
 import "./Events.css";
 import { event, games } from "./Eventdata";
@@ -19,7 +19,7 @@ function Events() {
               url={eve.url}
               isActive={eve.isActive}
             />
-          ))}
+          )).reverse()}
         </div>
         <div>
           {games.map((game) => (

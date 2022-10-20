@@ -2,30 +2,46 @@ export const event = [
   {
     image: require(`../../assets/images/codathon1.png`),
     title: `Code-A-Thon`,
-    description: `lorem ipsum ammet hello hii this is beach hack promotional event.`,
+    description: `Beach Hack 5 presents CODEATHON- an online coding competition.`,
     url: "",
-    isActive: "true",
+    isActive: false,
+  },
+  {
+    image: require(`../../assets/images/selfiecontest.png`),
+    title: `Selfie Contest`,
+    description: `Snap to win!!!
+    BEACH HACK 5 presents......
+    "SELFIE CONTEST"`,
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSeknjgPgEM768w-NnJBg8senL3bp8WLdZtztwmpPMtyKuRmLw/viewform?usp=sf_link",
+    isActive: true,
+  },
+  {
+    image: require(`../../assets/images/photograpycontest.png`),
+    title: `Photography`,
+    description: `Capture your best shot and get your snapshots featured ashore.`,
+    url: "https://docs.google.com/forms/d/e/1FAIpQLScipol39_V9_0xjEN7MHsJ-Mx46DHMEeEN0omQ2n3cZP2fIMA/viewform?usp=sf_link",
+    isActive: true,
   },
   // {
-  //   image: `https://images6.alphacoders.com/107/1072679.jpg`,
-  //   title: `Web Develpment`,
+  //   image: require(`../../assets/images/question.png`),
+  //   title: `Drawing contest`,
   //   description: `Lorem Ipsum is simply dummy text of the printing and typesetting`,
   //   url: "",
-  //   isActive: "true",
+  //   isActive: false,
   // },
   // {
-  //   image: `https://images4.alphacoders.com/102/10224.jpg`,
-  //   title: `Web Develpment`,
+  //   image: require(`../../assets/images/question.png`),
+  //   title: `Marvel quiz`,
   //   description: `Lorem Ipsum is simply dummy text of the printing and typesetting`,
   //   url: "",
-  //   isActive: "true",
+  //   isActive: false,
   // },
   // {
-  //   image: `https://w0.peakpx.com/wallpaper/540/398/HD-wallpaper-it-is-over-blue-game-game-over-sayings-ultra-words.jpg`,
-  //   title: `Web Develpment`,
+  //   image: require(`../../assets/images/question.png`),
+  //   title: `Ideathon`,
   //   description: `Lorem Ipsum is simply dummy text of the printing and typesetting`,
   //   url: "",
-  //   isActive: "true",
+  //   isActive: false,
   // },
 ];
 export const games = [
@@ -33,12 +49,12 @@ export const games = [
     image: require(`../../assets/images/Valorant.png`),
     title: `VALORANT`,
     url: "",
-    isActive: "true",
+    isActive: false,
   },
-  {
-    image: require(`../../assets/images/pes.png`),
-    title: `PES`,
-    url: "",
-    isActive: "true",
-  },
+  // {
+  //   image: require(`../../assets/images/pes.png`),
+  //   title: `PES`,
+  //   url: "",
+  //   isActive: "true",
+  // },
 ];
