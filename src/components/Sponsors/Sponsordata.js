@@ -14,7 +14,11 @@ export const sponsor = [
     color: "#E5E4E2",
     sponsorlist: [
       {
-        img: require(`../../assets/images/neurahire.png`),
+        img: require(`../../assets/images/devfoliospo.png`),
+        name: "Steyp",
+      },
+      {
+        img: require(`../../assets/images/polygon.png`),
         name: "Steyp",
       },
     ],
@@ -25,11 +29,18 @@ export const sponsor = [
     sponsorlist: [
       {
         img: require(`../../assets/images/iedc.png`),
-        name: "Carestack",
       },
       {
         img: require(`../../assets/images/ieee.png`),
-        name: "Finestra",
+      },
+      {
+        img: require(`../../assets/images/solana.png`),
+      },
+      {
+        img: require(`../../assets/images/filecoin.png`),
+      },
+      {
+        img: require(`../../assets/images/replit.png`),
       },
     ],
   },

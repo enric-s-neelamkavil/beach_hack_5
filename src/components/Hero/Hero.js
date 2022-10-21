@@ -17,8 +17,16 @@ function Hero() {
         </h1>
       </div>
       <div className="home_hero_wrapper_button_wrapper">
-        <Button image={devfolio} title="Devfolio" content="Apply with" />
-        <Button image={discord} title="Discord" content="Join us on" />
+        <Button
+          image={devfolio}
+          title="Apply with Devfolio"
+          // content="Apply with"
+        />
+        <Button
+          image={discord}
+          title="Join us on Discord"
+          // content="Join us on"
+        />
       </div>
       <Explore />
     </div>

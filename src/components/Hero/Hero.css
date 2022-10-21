@@ -78,6 +78,11 @@
   justify-content: center;
   gap: 20px;
 }
+@media all and (max-width: 650px) {
+  .home_hero_wrapper_button_wrapper {
+    flex-direction: column;
+  }
+}
 @media all and (max-width: 500px) {
   .home_hero_wrapper_button_wrapper {
     gap: 0px;

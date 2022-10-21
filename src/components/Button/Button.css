@@ -28,6 +28,8 @@
   align-items: center;
   justify-content: space-around;
   gap: 10px;
+  word-spacing: 3px;
+  letter-spacing: 0.5px;
 }
 .button_wrapper > a > img {
   height: 40px;
