@@ -17,7 +17,7 @@ function Sponsorcard({ image, name, tier }) {
   if (tier === "Ruby") {
     return (
       <div className="sponsor_card_wrapper ruby_tier">
-        <img src={image} alt="" className="sponsor_logo" />
+        <img src={image} alt="" className="sponsor_logo" loading="lazy" />
         <img src={rubystone} alt="" className="sponsor_card_stone" />
       </div>
     );
@@ -25,7 +25,7 @@ function Sponsorcard({ image, name, tier }) {
   if (tier === "Sapphire") {
     return (
       <div className="sponsor_card_wrapper sapphire_tier">
-        <img src={image} alt="" className="sponsor_logo" />
+        <img src={image} alt="" className="sponsor_logo" loading="lazy" />
         <img src={sapphirestone} alt="" className="sponsor_card_stone" />
       </div>
     );
@@ -33,7 +33,7 @@ function Sponsorcard({ image, name, tier }) {
   if (tier === "Diamond") {
     return (
       <div className="sponsor_card_wrapper diamond_tier">
-        <img src={image} alt="" className="sponsor_logo" />
+        <img src={image} alt="" className="sponsor_logo" loading="lazy" />
         <img src={diamondstone} alt="" className="sponsor_card_stone" />
       </div>
     );

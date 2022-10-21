@@ -13,7 +13,7 @@ function Eventcard({ image, title, description, url, isActive }) {
         <p>{description}</p>
         {isActive ? (
           <a href={url} target="_blank_">
-            <img src={register} alt="" srcset="" />
+            <img src={register} alt="" srcset="" loading="lazy" />
           </a>
         ) : (
           <span></span>

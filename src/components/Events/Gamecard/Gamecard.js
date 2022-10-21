@@ -10,7 +10,7 @@ function Gamecard({ image, title, url, isActive }) {
       <p>TOURNAMENT</p>
       {isActive && (
         <a href={url}>
-          <img src={register} alt="" />
+          <img src={register} alt="" loading="lazy" />
         </a>
       )}
     </div>
