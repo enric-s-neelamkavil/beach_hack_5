@@ -50,7 +50,6 @@ function Dashboard() {
           <Hamburger
             anchorlinks={[
               "home",
-              "happenings",
               "schedule",
               "leaderboard",
               "sponsors",
@@ -60,7 +59,6 @@ function Dashboard() {
           <Header
             anchorlinks={[
               "home",
-              "happenings",
               "schedule",
               "leaderboard",
               "sponsors",
@@ -70,8 +68,8 @@ function Dashboard() {
           <Sidenav />
           <Home />
           <Events event={event} games={games} />
+          <Leaderboard />
           {/* <Schedule /> */}
-          {/* <Leaderboard /> */}
           {/* <Sponsors sponsor={sponsor} /> */}
           {/* <Team /> */}
           <Footer />

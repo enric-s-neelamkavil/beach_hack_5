@@ -6,9 +6,9 @@ import Sectiontitle from "../Sectiontitle/Sectiontitle";
 
 function Schedule() {
   return (
-    <>
+    <div className="dashboard_schedule_wrapper">
       <Sectiontitle title="SCHEDULE" />
-      <div className="dashboard_schedule_wrapper" id="schedule">
+      <div className="dashboard_schedule_inner_wrapper" id="schedule">
         {data.map((dat, index) => (
           <Schedulesingle
             date={dat.date}
@@ -20,7 +20,7 @@ function Schedule() {
           />
         ))}
       </div>
-    </>
+    </div>
   );
 }
 
