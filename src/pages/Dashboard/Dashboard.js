@@ -3,14 +3,11 @@ import "./Dashboard.css";
 import Header from "../../components/Header/Header";
 import Home from "../../components/Home/Home";
 import Hamburger from "../../components/Hamburger/Hamburger";
-import Schedule from "../../components/Schedule/Schedule";
 import Sidenav from "../../components/Sidenav/Sidenav";
 import Events from "../../components/Events/Events";
 import Footer from "../../components/Footer/Footer";
-import Sponsors from "../../components/Sponsors/Sponsors";
 import Leaderboard from "../../components/Leaderboard/Leaderboard";
 import { event, games } from "../../components/Events/Eventdata";
-import { sponsor } from "../../components/Sponsors/Sponsordata";
 import Loading from "../../Loading";
 import Team from "../../components/Team/Team";
 
@@ -23,11 +20,6 @@ function Dashboard() {
     });
     games.map((game) => {
       images.push(game.image);
-    });
-    sponsor.map((spon) => {
-      spon.sponsorlist.map((sl) => {
-        images.push(sl.img);
-      });
     });
     cacheImages(images);
   }, []);
@@ -53,7 +45,7 @@ function Dashboard() {
               "schedule",
               "leaderboard",
               "sponsors",
-              // "about",
+              "about",
             ]}
           />
           <Header
@@ -62,15 +54,13 @@ function Dashboard() {
               "schedule",
               "leaderboard",
               "sponsors",
-              // "about",
+              "about",
             ]}
           />
           <Sidenav />
           <Home />
           <Events event={event} games={games} />
           <Leaderboard />
-          {/* <Schedule /> */}
-          {/* <Sponsors sponsor={sponsor} /> */}
           {/* <Team /> */}
           <Footer />
         </div>

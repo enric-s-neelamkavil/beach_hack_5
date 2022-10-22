@@ -1,13 +1,12 @@
 import React from "react";
-import "./Schedulepage.css";
-import Hamburger from "../../components/Hamburger/Hamburger";
 import Header from "../../components/Header/Header";
-import Schedule from "../../components/Schedule/Schedule";
+import Hamburger from "../../components/Hamburger/Hamburger";
+import Sponsors from "../../components/Sponsors/Sponsors";
+import { sponsor } from "../../components/Sponsors/Sponsordata";
 import Footer from "../../components/Footer/Footer";
-
-function Schedulepage() {
+function Sponsorspage() {
   return (
-    <div className="schedulepage_wrapper">
+    <div className="sponsorspage_wrapper">
       <Hamburger
         anchorlinks={[
           "home",
@@ -26,10 +25,10 @@ function Schedulepage() {
           "about",
         ]}
       />
-      <Schedule />
+      <Sponsors sponsor={sponsor} />
       <Footer />
     </div>
   );
 }
 
-export default Schedulepage;
+export default Sponsorspage;

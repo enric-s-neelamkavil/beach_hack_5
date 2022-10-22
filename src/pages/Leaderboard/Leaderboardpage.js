@@ -13,7 +13,7 @@ function Leaderboardpage() {
           "schedule",
           "leaderboard",
           "sponsors",
-          // "about",
+          "about",
         ]}
       />
       <Header
@@ -22,7 +22,7 @@ function Leaderboardpage() {
           "schedule",
           "leaderboard",
           "sponsors",
-          // "about",
+          "about",
         ]}
       />
       <Leaderboard />
