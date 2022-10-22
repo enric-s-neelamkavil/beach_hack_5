@@ -15,13 +15,13 @@ export const event = [
     url: "https://docs.google.com/forms/d/e/1FAIpQLSeknjgPgEM768w-NnJBg8senL3bp8WLdZtztwmpPMtyKuRmLw/viewform?usp=sf_link",
     isActive: true,
   },
-  {
-    image: require(`../../assets/images/photograpycontest.png`),
-    title: `Photography`,
-    description: `Capture your best shot and get your snapshots featured ashore.`,
-    url: "https://docs.google.com/forms/d/e/1FAIpQLScipol39_V9_0xjEN7MHsJ-Mx46DHMEeEN0omQ2n3cZP2fIMA/viewform?usp=sf_link",
-    isActive: true,
-  },
+  // {
+  //   image: require(`../../assets/images/photograpycontest.png`),
+  //   title: `Photography`,
+  //   description: `Capture your best shot and get your snapshots featured ashore.`,
+  //   url: "https://docs.google.com/forms/d/e/1FAIpQLScipol39_V9_0xjEN7MHsJ-Mx46DHMEeEN0omQ2n3cZP2fIMA/viewform?usp=sf_link",
+  //   isActive: true,
+  // },
   // {
   //   image: require(`../../assets/images/question.png`),
   //   title: `Drawing contest`,

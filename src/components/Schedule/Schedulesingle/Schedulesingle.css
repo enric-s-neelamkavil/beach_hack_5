@@ -50,6 +50,9 @@
   align-items: center;
   justify-content: center;
 }
+.bottom_dot {
+  bottom: 0;
+}
 .schedule_single_wrapper_path_big_round_small_round {
   width: 14px;
   height: 14px;
@@ -83,7 +86,7 @@
 @media all and (max-width: 550px) {
   .schedule_single_wrapper_content_wrapper {
     width: 150px;
-    gap:5px;
+    gap: 5px;
     transform: translateX(70px);
   }
   .schedule_single_wrapper_content_wrapper_left {
