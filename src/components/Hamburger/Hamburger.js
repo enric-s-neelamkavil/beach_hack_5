@@ -23,7 +23,7 @@ function Hamburger({ anchorlinks }) {
           <ul>
             {anchorlinks.map((al, index) => (
               <li key={index}>
-                <a href={"#" + al} onClick={hamburgerTrigger}>
+                <a href={"/" + al} onClick={hamburgerTrigger}>
                   {al}
                 </a>
               </li>

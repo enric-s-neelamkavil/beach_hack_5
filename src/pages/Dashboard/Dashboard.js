@@ -67,13 +67,13 @@ function Dashboard() {
               // "about",
             ]}
           />
+          <Sidenav />
           <Home />
           <Events event={event} games={games} />
-          <Schedule />
-          <Sidenav />
-          <Leaderboard />
-          <Sponsors sponsor={sponsor} />
-          <Team />
+          {/* <Schedule /> */}
+          {/* <Leaderboard /> */}
+          {/* <Sponsors sponsor={sponsor} /> */}
+          {/* <Team /> */}
           <Footer />
         </div>
       ) : (

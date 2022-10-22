@@ -29,7 +29,7 @@ function Header({ anchorlinks }) {
         <ul>
           {anchorlinks.map((al, index) => (
             <li key={index}>
-              <a href={"#" + al}>{al}</a>
+              <a href={"/" + al}>{al}</a>
             </li>
           ))}
         </ul>
