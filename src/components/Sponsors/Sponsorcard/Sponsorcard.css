@@ -1,6 +1,7 @@
 .sponsor_card_wrapper {
   min-width: 220px;
   max-width: 300px;
+  height:100px;
   width: 80%;
   display: flex;
   gap: 20px;

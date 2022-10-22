@@ -4,8 +4,7 @@ export const sponsor = [
     color: "red",
     sponsorlist: [
       {
-        img: require(`../../assets/images/ggnation.png`),
-        name: "Entri",
+        img: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/sponsors%2Fggnation.png?alt=media&token=08448b16-f71b-4c6f-9dbb-7c7cc27988b8`,
       },
     ],
   },
@@ -14,12 +13,13 @@ export const sponsor = [
     color: "#E5E4E2",
     sponsorlist: [
       {
-        img: require(`../../assets/images/devfoliospo.png`),
-        name: "Steyp",
+        img: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/sponsors%2Fneurahire.png?alt=media&token=1836ba0d-6f97-44e8-a2c4-92f1214450db`,
       },
       {
-        img: require(`../../assets/images/polygon.png`),
-        name: "Steyp",
+        img: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/sponsors%2Fdevfoliospo.png?alt=media&token=ac5a31f8-1e1e-4e53-b3c1-639886cd7c4f`,
+      },
+      {
+        img: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/sponsors%2Fpolygon.png?alt=media&token=294f1b3d-1187-4bfe-b2fb-ca5da9c78e05`,
       },
     ],
   },
@@ -28,19 +28,19 @@ export const sponsor = [
     color: "#FFD700",
     sponsorlist: [
       {
-        img: require(`../../assets/images/iedc.png`),
+        img: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/sponsors%2Fiedc.png?alt=media&token=651cb812-07f3-4b0b-94c9-5cb5e7f5b1f0`,
       },
       {
-        img: require(`../../assets/images/ieee.png`),
+        img: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/sponsors%2Fieee.png?alt=media&token=aedd2d26-6f51-441f-8146-a3dd118ad660`,
       },
       {
-        img: require(`../../assets/images/solana.png`),
+        img: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/sponsors%2Fsolana.png?alt=media&token=2fd0e912-ab0b-41f5-a4e9-6e2c529661b1`,
       },
       {
-        img: require(`../../assets/images/filecoin.png`),
+        img: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/sponsors%2Ffilecoin.png?alt=media&token=348b457c-af0b-4d53-a6ca-e77515d7be1a`,
       },
       {
-        img: require(`../../assets/images/replit.png`),
+        img: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/sponsors%2Freplit.png?alt=media&token=e0180e42-2d25-4474-b179-b58e59803f8f`,
       },
     ],
   },
@@ -49,7 +49,7 @@ export const sponsor = [
     color: "#C0C0C0",
     sponsorlist: [
       {
-        img: require(`../../assets/images/tinkerhub.png`),
+        img: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/sponsors%2Ftinkerhub.png?alt=media&token=482ebb7b-afba-41ba-a6bd-008e7f9ca983`,
         name: "Santamonica",
       },
     ],
