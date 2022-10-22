@@ -12,6 +12,7 @@ import Leaderboard from "../../components/Leaderboard/Leaderboard";
 import { event, games } from "../../components/Events/Eventdata";
 import { sponsor } from "../../components/Sponsors/Sponsordata";
 import Loading from "../../Loading";
+import Team from "../../components/Team/Team";
 
 function Dashboard() {
   const [loading, isLoading] = useState(true);
@@ -72,6 +73,7 @@ function Dashboard() {
           <Sidenav />
           <Leaderboard />
           <Sponsors sponsor={sponsor} />
+          <Team />
           <Footer />
         </div>
       ) : (
