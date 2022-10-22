@@ -4,6 +4,7 @@ import Hamburger from "../../components/Hamburger/Hamburger";
 import Header from "../../components/Header/Header";
 import Team from "../../components/Team/Team";
 import Sidenav from "../../components/Sidenav/Sidenav";
+import Jumparrowleft from "../../components/Jumparrow/Jumparrowleft";
 
 function Aboutpage() {
   return (
@@ -15,6 +16,7 @@ function Aboutpage() {
         anchorlinks={["home", "schedule", "leaderboard", "sponsors", "about"]}
       />
       <Sidenav />
+      <Jumparrowleft route="/sponsors" />
       <Team />
       <Footer />
     </div>

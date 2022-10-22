@@ -1,15 +1,20 @@
 .jumparrow_wrapper {
-  position: absolute;
-  width: 30px;
-  height: 30px;
+  position: fixed;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   background-color: rgba(192, 192, 192, 0.2);
   color: var(--primary);
+  top: calc(50% - 50px);
+  font-size: 20px;
+  z-index: 9999;
 }
 .jumparrowleft_wrapper {
+  left: 10px;
 }
 .jumparrowright_wrapper {
+  right: 10px;
 }

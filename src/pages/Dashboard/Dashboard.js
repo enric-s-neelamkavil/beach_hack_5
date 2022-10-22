@@ -9,7 +9,7 @@ import Footer from "../../components/Footer/Footer";
 import Leaderboard from "../../components/Leaderboard/Leaderboard";
 import { event, games } from "../../components/Events/Eventdata";
 import Loading from "../../Loading";
-import Team from "../../components/Team/Team";
+import Jumparrowright from "../../components/Jumparrow/Jumparrowright";
 
 function Dashboard() {
   const [loading, isLoading] = useState(true);
@@ -58,10 +58,10 @@ function Dashboard() {
             ]}
           />
           <Sidenav />
+          <Jumparrowright route="/schedule" />
           <Home />
           <Events event={event} games={games} />
           <Leaderboard />
-          {/* <Team /> */}
           <Footer />
         </div>
       ) : (

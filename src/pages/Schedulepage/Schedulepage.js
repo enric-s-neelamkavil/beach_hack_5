@@ -5,6 +5,8 @@ import Header from "../../components/Header/Header";
 import Schedule from "../../components/Schedule/Schedule";
 import Footer from "../../components/Footer/Footer";
 import Sidenav from "../../components/Sidenav/Sidenav";
+import Jumparrowleft from "../../components/Jumparrow/Jumparrowleft";
+import Jumparrowright from "../../components/Jumparrow/Jumparrowright";
 
 function Schedulepage() {
   return (
@@ -15,6 +17,8 @@ function Schedulepage() {
       <Header
         anchorlinks={["home", "schedule", "leaderboard", "sponsors", "about"]}
       />
+      <Jumparrowright route="/leaderboard" />
+      <Jumparrowleft route="/home" />
       <Sidenav />
       <Schedule />
       <Footer />
