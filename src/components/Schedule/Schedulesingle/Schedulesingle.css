@@ -87,10 +87,10 @@
   .schedule_single_wrapper_content_wrapper {
     width: 150px;
     gap: 5px;
-    transform: translateX(70px);
+    transform: translateX(75px);
   }
   .schedule_single_wrapper_content_wrapper_left {
-    transform: translateX(-80px);
+    transform: translateX(-75px);
   }
   .schedule_single_wrapper_path {
     left: 0px;
