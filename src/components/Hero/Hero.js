@@ -26,6 +26,7 @@ function Hero() {
           image={discord}
           title="Join us on Discord"
           // content="Join us on"
+          url="https://discord.gg/F7QcYvkpef"
         />
       </div>
       <Explore />

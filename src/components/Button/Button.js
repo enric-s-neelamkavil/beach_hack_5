@@ -1,7 +1,7 @@
 import React from "react";
 import "./Button.css";
 
-function Button({ image, title, content }) {
+function Button({ image, title, content, url }) {
   return (
     <div className="button_wrapper">
       {content && (
@@ -9,7 +9,7 @@ function Button({ image, title, content }) {
           <span>{content}</span>
         </div>
       )}
-      <a href="">
+      <a href={url} target="_blank_">
         {image && <img src={image} alt="" />}
         <span>{title}</span>
       </a>
