@@ -4,6 +4,7 @@ import "./Header.css";
 import Button from "../Button/Button";
 import logo from "../../assets/images/logowhite.png";
 import bg from "../../assets/images/bg.svg";
+import Devfoliobutton from "../Devfoliobutton/Devfoliobutton";
 
 function Header({ anchorlinks }) {
   const [open, setOpen] = useState(true);
@@ -34,7 +35,8 @@ function Header({ anchorlinks }) {
           ))}
         </ul>
       </nav>
-      <Button title="Register" />
+      {/* <Button title="Register" /> */}
+      <Devfoliobutton />
     </header>
   );
 }

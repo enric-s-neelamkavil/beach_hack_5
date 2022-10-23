@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../Button/Button";
-import Header from "../Header/Header";
+import Devfoliobutton from "../Devfoliobutton/Devfoliobutton";
 import "./Hero.css";
 import discord from "../../assets/images/discord.png";
 import devfolio from "../../assets/images/devfolio.png";
@@ -17,11 +17,12 @@ function Hero() {
         </h1>
       </div>
       <div className="home_hero_wrapper_button_wrapper">
-        <Button
+        {/* <Button
           image={devfolio}
           title="Apply with Devfolio"
           // content="Apply with"
-        />
+        /> */}
+        <Devfoliobutton />
         <Button
           image={discord}
           title="Join us on Discord"
