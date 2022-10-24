@@ -32,8 +32,9 @@ function Dashboard() {
         img.onerror = reject();
       });
     });
-    await Promise.all(promises);
-    isLoading(false);
+    await Promise.all(promises).then(() => {
+      isLoading(false);
+    });
   };
   return (
     <>
