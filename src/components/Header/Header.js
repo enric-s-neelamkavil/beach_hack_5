@@ -35,8 +35,7 @@ function Header({ anchorlinks }) {
           ))}
         </ul>
       </nav>
-      {/* <Button title="Register" /> */}
-      <Devfoliobutton />
+      {/* <Devfoliobutton /> */}
     </header>
   );
 }

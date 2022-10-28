@@ -1,7 +1,8 @@
 .button_wrapper {
   position: relative;
   background-color: rgba(255, 255, 255, 0.3);
-  background-color: white;
+  /* background-color: white; */
+  background-color: rgb(39, 51, 63);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   width: fit-content;
@@ -10,7 +11,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 4px;
-  width:312px;
+  width: 312px;
 }
 .button_wrapper > a {
   width: 100%;
@@ -28,7 +29,6 @@
 }
 .button_wrapper > a > span {
   color: var(--secondary);
-  color: #27333f;
   font-weight: 600;
   font-size: 20px;
 }

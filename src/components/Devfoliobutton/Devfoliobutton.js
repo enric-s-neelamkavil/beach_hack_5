@@ -15,7 +15,7 @@ function Devfoliobutton() {
     <div
       className="apply-button"
       data-hackathon-slug="beach-hack"
-      data-button-theme="dark-inverted"
+      data-button-theme="dark"
       style={{ height: "300px", width: "312px" }}
     ></div>
   );
