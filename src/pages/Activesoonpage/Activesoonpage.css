@@ -1,0 +1,14 @@
+.active_soon_wrapper{
+  width:100%;
+  height:100vh;
+  display: flex;flex-direction: column;
+  gap:20px;
+  align-items: center;
+  justify-content: center;
+}
+.active_soon_wrapper>span{
+  color:var(--primary);
+  font-weight: 900;
+  
+
+}

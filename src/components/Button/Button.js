@@ -9,7 +9,7 @@ function Button({ image, title, content, url }) {
           <span>{content}</span>
         </div>
       )}
-      <a href={url} target="_blank_">
+      <a href={url} target={url === "/" ? "" : "_blank_"}>
         {image && <img src={image} alt="" />}
         <span>{title}</span>
       </a>
