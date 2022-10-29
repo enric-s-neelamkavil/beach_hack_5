@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Eventcard.css";
 import register from "../../../assets/images/register.png";
+import closed from "../../../assets/images/closed.png";
 
 function Eventcard({ image, title, description, url, isActive }) {
   return (
@@ -17,7 +18,7 @@ function Eventcard({ image, title, description, url, isActive }) {
           </a>
         ) : (
           <a href={url} target="_blank_" className="ended">
-            <img src={register} alt="" srcset="" loading="lazy" />
+            <img src={closed} alt="" srcset="" loading="lazy" />
           </a>
         )}
       </div>

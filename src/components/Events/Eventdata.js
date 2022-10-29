@@ -1,13 +1,13 @@
 export const event = [
   {
-    image: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/events%2Fcodathon1.png?alt=media&token=8107c655-c5e3-4d3c-a80f-2cd9c8905835`,
+    image: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/events%2Fcodathon.jpg?alt=media&token=88a3aa02-8adb-4188-a435-ad6e55a84575`,
     title: `Code-A-Thon`,
     description: `Beach Hack 5 presents CODEATHON- an online coding competition.`,
     url: "",
     isActive: false,
   },
   {
-    image: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/events%2Fselfiecontest.png?alt=media&token=b244cfcc-c613-4898-9259-6159e78f075b`,
+    image: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/events%2FSelfie%20Contest.jpg?alt=media&token=103fb421-d203-468f-8a7f-9c515a8e2d94`,
     title: `Selfie Contest`,
     description: `Snap to win!!!
     BEACH HACK 5 presents......
@@ -16,7 +16,7 @@ export const event = [
     isActive: true,
   },
   {
-    image: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/events%2Fphotograpycontest.png?alt=media&token=98940528-4ec8-48f2-8b8b-0a9e6142c424`,
+    image: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/events%2FPhotograpy%20contest.jpg?alt=media&token=8aac6da1-b513-4c7c-bee6-f26205013b21`,
     title: `Photography`,
     description: `Capture your best shot and get your snapshots featured ashore.`,
     url: "https://docs.google.com/forms/d/e/1FAIpQLScipol39_V9_0xjEN7MHsJ-Mx46DHMEeEN0omQ2n3cZP2fIMA/viewform?usp=sf_link",

@@ -49,5 +49,6 @@
   width: 90px;
 }
 .ended{
+  cursor: default;
   filter: grayscale(20);
 }
