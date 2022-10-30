@@ -23,3 +23,13 @@
 .association_single > img {
   width: 150px;
 }
+@media all and (max-width:600px)
+{
+  .association_inner_wrapper{
+  justify-content: center;
+
+  }
+  .association_single > img {
+    width: 100px;
+  } 
+}
