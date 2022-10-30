@@ -27,3 +27,8 @@
   color: var(--secondary);
   font-size: 1.5rem;
 }
+@media all and (max-width: 1000px) {
+  .sidenav_wrapper {
+    display: none;
+  }
+}

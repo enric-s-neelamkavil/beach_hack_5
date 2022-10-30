@@ -3,7 +3,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  background: url(../../assets/images/footerbg.png);
+  /* background: url(../../assets/images/footerbg.png); */
   background-size: cover;
   background-position: center top;
 
