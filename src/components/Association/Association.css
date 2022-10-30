@@ -1,0 +1,25 @@
+.association_wrapper {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 150px;
+  box-shadow: 0px 0px 0px 0.2px white;
+  padding: 20px;
+  gap: 20px;
+}
+.association_wrapper > h2 {
+  color: var(--secondary);
+}
+.association_inner_wrapper {
+  max-width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.association_single > img {
+  width: 150px;
+}

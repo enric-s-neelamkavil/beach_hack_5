@@ -10,6 +10,7 @@ import Leaderboard from "../../components/Leaderboard/Leaderboard";
 import { event, games } from "../../components/Events/Eventdata";
 import Loading from "../../Loading";
 import Jumparrowright from "../../components/Jumparrow/Jumparrowright";
+import Association from "../../components/Association/Association";
 
 function Dashboard() {
   const [loading, isLoading] = useState(true);
@@ -61,6 +62,7 @@ function Dashboard() {
           <Sidenav />
           <Jumparrowright route="/schedule" />
           <Home />
+          <Association />
           <Events event={event} games={games} />
           <Leaderboard />
           <Footer />
