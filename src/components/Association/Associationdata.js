@@ -10,4 +10,8 @@ export const association = [
     img: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/sponsors%2Ftinkerhub.png?alt=media&token=3bb48d51-e7db-4303-871c-f2f93b3820b0`,
     url: `https://tinkerhub.org/`,
   },
+  {
+    img:`https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/sponsors%2Fcsi.png?alt=media&token=29fd2e0a-c614-4e62-ae47-a6162c61aeaa`,
+    url:``
+  }
 ];

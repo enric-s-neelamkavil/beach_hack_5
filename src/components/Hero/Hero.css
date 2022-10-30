@@ -85,7 +85,7 @@
 }
 @media all and (max-width: 500px) {
   .home_hero_wrapper_button_wrapper {
-    gap: 0px;
+    gap: 20px;
   }
   .home_hero_wrapper_welcome_content > h1 {
     font-size: 14vw;

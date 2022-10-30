@@ -13,7 +13,7 @@ function Bottomnav() {
         <Devfoliobutton />
         <a
           href="#home"
-          style={{ background: "var(--quarternary-shade-three)" }}
+          // style={{ background: "var(--quarternary-shade-three)" }}
         >
           <FaArrowUp className="arrow_to_top" />
         </a>
