@@ -24,10 +24,11 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media all and (max-width: 650px) {
+@media all and (max-width:839px)
+{
   .events_wrapper_inner_wrapper > div {
-    row-gap: 20px;
     display: flex;
     flex-direction: column;
+    gap:20px;
   }
 }

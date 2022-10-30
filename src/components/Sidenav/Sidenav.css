@@ -1,7 +1,7 @@
 .sidenav_wrapper {
   position: fixed;
-  bottom: 10px;
-  right: 10px;
+  bottom: 5px;
+  right: 5px;
   display: flex;
   align-items: center;
   flex-direction: column;
