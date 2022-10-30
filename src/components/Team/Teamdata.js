@@ -10,7 +10,7 @@ export const team = [
     designation: "Faculty-in-charge",
   },
   {
-    image: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/team%2Famalcp%20.jpg?alt=media&token=b6c3a4b3-9c3c-4394-8f8d-37da76e7860a`,
+    image: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/team%2Famalcp.jpg?alt=media&token=8fc2a9e3-6c5f-4e8c-9314-12f912d35c39`,
     name: `AMAL C P`,
     designation: "Beach Hack Head",
   },
