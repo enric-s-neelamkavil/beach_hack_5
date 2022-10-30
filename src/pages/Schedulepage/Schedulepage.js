@@ -7,6 +7,7 @@ import Footer from "../../components/Footer/Footer";
 import Sidenav from "../../components/Sidenav/Sidenav";
 import Jumparrowleft from "../../components/Jumparrow/Jumparrowleft";
 import Jumparrowright from "../../components/Jumparrow/Jumparrowright";
+import Bottomnav from "../../components/Bottomnav/Bottomnav";
 
 function Schedulepage() {
   return (
@@ -20,6 +21,7 @@ function Schedulepage() {
       <Jumparrowright route="/leaderboard" />
       <Jumparrowleft route="/home" />
       <Sidenav />
+      <Bottomnav />
       <Schedule />
       <Footer />
     </div>

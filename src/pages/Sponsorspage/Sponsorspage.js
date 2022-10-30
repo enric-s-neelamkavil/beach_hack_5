@@ -7,6 +7,7 @@ import Footer from "../../components/Footer/Footer";
 import Sidenav from "../../components/Sidenav/Sidenav";
 import Jumparrowright from "../../components/Jumparrow/Jumparrowright";
 import Jumparrowleft from "../../components/Jumparrow/Jumparrowleft";
+import Bottomnav from "../../components/Bottomnav/Bottomnav";
 function Sponsorspage() {
   return (
     <div className="sponsorspage_wrapper">
@@ -19,6 +20,7 @@ function Sponsorspage() {
       <Sidenav />
       <Jumparrowright route="/about" />
       <Jumparrowleft route="/leaderboard" />
+      <Bottomnav />
       <Sponsors sponsor={sponsor} />
       <Footer />
     </div>

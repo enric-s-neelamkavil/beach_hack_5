@@ -5,6 +5,7 @@ import Header from "../../components/Header/Header";
 import Team from "../../components/Team/Team";
 import Sidenav from "../../components/Sidenav/Sidenav";
 import Jumparrowleft from "../../components/Jumparrow/Jumparrowleft";
+import Bottomnav from "../../components/Bottomnav/Bottomnav";
 
 function Aboutpage() {
   return (
@@ -17,6 +18,7 @@ function Aboutpage() {
       />
       <Sidenav />
       <Jumparrowleft route="/sponsors" />
+      <Bottomnav />
       <Team />
       <Footer />
     </div>

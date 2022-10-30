@@ -10,7 +10,7 @@ import Leaderboard from "../../components/Leaderboard/Leaderboard";
 import { event, games } from "../../components/Events/Eventdata";
 import Loading from "../../Loading";
 import Jumparrowright from "../../components/Jumparrow/Jumparrowright";
-import Association from "../../components/Association/Association";
+import Association from "../../components/Association/Association"; 
 import Bottomnav from "../../components/Bottomnav/Bottomnav";
 
 function Dashboard() {
