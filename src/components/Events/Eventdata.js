@@ -22,6 +22,13 @@ export const event = [
     url: "https://docs.google.com/forms/d/e/1FAIpQLScipol39_V9_0xjEN7MHsJ-Mx46DHMEeEN0omQ2n3cZP2fIMA/viewform?usp=sf_link",
     isActive: true,
   },
+  {
+    image: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/events%2Fhalloween.jpg?alt=media&token=6df5eac2-d01d-4034-a342-2d7baeee7ab2`,
+    title: `Halloween Story`,
+    description: `What's up, pumpkin?`,
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSeKH01z7LQqzSwnHBhfJkUvhZTSuD-wcP9bP7dBFTbVWJFD3w/viewform",
+    isActive: true,
+  },
   // {
   //   image: require(`../../assets/images/question.png`),
   //   title: `Drawing contest`,
@@ -48,8 +55,8 @@ export const games = [
   {
     image: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/games%2FValorant.png?alt=media&token=39b39e86-1ee7-436b-b11e-316e2626aefd`,
     title: `VALORANT`,
-    url: "",
-    isActive: false,
+    url: "https://forms.gle/MMs1AVCza1c9stnz6",
+    isActive: true,
   },
   // {
   //   image: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/games%2Fpes.png?alt=media&token=5794ff3d-c506-440b-803f-d573713a4ac5`,

@@ -13,11 +13,11 @@ function Eventcard({ image, title, description, url, isActive }) {
         <h3>{title}</h3>
         <p>{description}</p>
         {isActive ? (
-          <a href={url} target="_blank_">
+          <a href={url} target="__blank__">
             <img src={register} alt="" srcset="" loading="lazy" />
           </a>
         ) : (
-          <a href={url} target="_blank_" className="ended">
+          <a href={url} target="__blank__" className="ended">
             <img src={closed} alt="" srcset="" loading="lazy" />
           </a>
         )}

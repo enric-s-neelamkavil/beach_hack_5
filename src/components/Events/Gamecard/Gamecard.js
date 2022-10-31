@@ -1,6 +1,7 @@
 import React from "react";
 import register from "../../../assets/images/register.png";
 import "./Gamecard.css";
+import closed from "../../../assets/images/closed.png";
 
 function Gamecard({ image, title, url, isActive }) {
   return (
@@ -8,9 +9,13 @@ function Gamecard({ image, title, url, isActive }) {
       <img src={image} alt="" loading="lazy" />
       <h3>{title}</h3>
       <p>TOURNAMENT</p>
-      {isActive && (
-        <a href={url}>
-          <img src={register} alt="" loading="lazy" />
+      {isActive ? (
+        <a href={url} target="__blank__">
+          <img src={register} alt="" srcset="" loading="lazy" />
+        </a>
+      ) : (
+        <a href={url} target="__blank__" className="ended">
+          <img src={closed} alt="" srcset="" loading="lazy" />
         </a>
       )}
     </div>
