@@ -2,7 +2,7 @@
   z-index: 9999;
 }
 .dashboard_logo_wrapper > img {
-  height: 80px;
+  height: 100px;
 }
 .dashboard_logo_wrapper {
   align-self: flex-start;

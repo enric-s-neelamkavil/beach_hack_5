@@ -25,13 +25,24 @@
 .association_single > img {
   width: 150px;
 }
-@media all and (max-width:600px)
-{
-  .association_inner_wrapper{
-  justify-content: center;
-
-  }
+@media all and (max-width: 1000px) {
   .association_single > img {
     width: 100px;
-  } 
+  }
+}
+@media all and (max-width: 740px) {
+  .association_single > img {
+    width: 70px;
+  }
+  .association_inner_wrapper {
+    gap: 20px;
+  }
+}
+@media all and (max-width: 600px) {
+  .association_inner_wrapper {
+    gap: 15px;
+  }
+  .association_single > img {
+    width: 60px;
+  }
 }
