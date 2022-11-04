@@ -18,7 +18,7 @@ function App() {
         <Route path="/leaderboard" element={<Leaderboardpage />} />
         <Route path="/sponsors" element={<Sponsorspage />} />
         <Route path="/about" element={<Aboutpage />} />
-        <Route path="*" element={<Activesoonpage />} />
+        <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
