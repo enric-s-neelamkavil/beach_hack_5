@@ -13,12 +13,8 @@ function Aboutpage() {
       <Hamburger
         anchorlinks={["home", "schedule", "leaderboard", "sponsors", "about"]}
       />
-      <Header
-        anchorlinks={["home", "schedule", "leaderboard", "sponsors", "about"]}
-      />
       <Sidenav />
       <Jumparrowleft route="/sponsors" />
-      {/* <Bottomnav /> */}
       <Team />
       <Footer />
     </div>

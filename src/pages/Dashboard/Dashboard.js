@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./Dashboard.css";
-import Header from "../../components/Header/Header";
 import Home from "../../components/Home/Home";
 import Hamburger from "../../components/Hamburger/Hamburger";
 import Sidenav from "../../components/Sidenav/Sidenav";
@@ -10,8 +9,7 @@ import Leaderboard from "../../components/Leaderboard/Leaderboard";
 import { event, games } from "../../components/Events/Eventdata";
 import Loading from "../../Loading";
 import Jumparrowright from "../../components/Jumparrow/Jumparrowright";
-import Association from "../../components/Association/Association"; 
-import Bottomnav from "../../components/Bottomnav/Bottomnav";
+import Association from "../../components/Association/Association";
 
 function Dashboard() {
   const [loading, isLoading] = useState(true);
@@ -43,15 +41,6 @@ function Dashboard() {
       {!loading ? (
         <div className="dashboard_wrapper">
           <Hamburger
-            anchorlinks={[
-              "home",
-              "schedule",
-              "leaderboard",
-              "sponsors",
-              "about",
-            ]}
-          />
-          <Header
             anchorlinks={[
               "home",
               "schedule",

@@ -9,11 +9,15 @@ import Sponsorspage from "./pages/Sponsorspage/Sponsorspage";
 import Aboutpage from "./pages/Aboutpage/Aboutpage";
 import Activesoonpage from "./pages/Activesoonpage/Activesoonpage";
 import Bottomnav from "./components/Bottomnav/Bottomnav";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <>
       <BrowserRouter>
+        <Header
+          anchorlinks={["home", "schedule", "leaderboard", "sponsors", "about"]}
+        />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Dashboard />} />
