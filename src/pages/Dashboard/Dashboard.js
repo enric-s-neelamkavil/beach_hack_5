@@ -56,7 +56,6 @@ function Dashboard() {
             ]}
           />
           <Sidenav />
-          {/* <Bottomnav /> */}
           <Jumparrowright route="/schedule" />
           <Home />
           <Association />

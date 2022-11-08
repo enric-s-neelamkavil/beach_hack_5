@@ -7,6 +7,9 @@ import { FaArrowUp } from "react-icons/fa";
 function Bottomnav() {
   let location = useLocation();
   const [basenav, setBasenav] = useState(true);
+  function scrollingToTop() {
+    window.scrollTo(0, 0);
+  }
   useEffect(() => {
     if (
       ["/home", "/schedule", "/leaderboard", "/sponsors", "/about"].includes(
@@ -28,10 +31,7 @@ function Bottomnav() {
           <div style={{ height: "44px", overflow: "hidden" }}>
             <Devfoliobutton />
           </div>
-          <a
-            href="#home"
-            // style={{ background: "var(--quarternary-shade-three)" }}
-          >
+          <a href="#home" onClick={scrollingToTop}>
             <FaArrowUp className="arrow_to_top" />
           </a>
         </div>
