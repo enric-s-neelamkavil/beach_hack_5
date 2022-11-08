@@ -10,10 +10,16 @@ import { event, games } from "../../components/Events/Eventdata";
 import Loading from "../../Loading";
 import Jumparrowright from "../../components/Jumparrow/Jumparrowright";
 import Association from "../../components/Association/Association";
+import { useLocation } from "react-router-dom";
 
 function Dashboard() {
   const [loading, isLoading] = useState(true);
   const images = [];
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   useEffect(() => {
     event.map((eve) => {
       images.push(eve.image);
