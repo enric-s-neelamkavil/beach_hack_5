@@ -6,7 +6,6 @@ import rubystone from "../../../assets/images/rubystone.png";
 import diamondstone from "../../../assets/images/diamondstone.png";
 
 function Sponsorcard({ image, tier, url }) {
-  console.log(url);
   if (tier === "Emerald") {
     return (
       <div className="sponsor_card_wrapper emerald_tier">

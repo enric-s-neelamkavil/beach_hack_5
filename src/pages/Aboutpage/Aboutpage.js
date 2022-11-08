@@ -18,7 +18,7 @@ function Aboutpage() {
       />
       <Sidenav />
       <Jumparrowleft route="/sponsors" />
-      <Bottomnav />
+      {/* <Bottomnav /> */}
       <Team />
       <Footer />
     </div>

@@ -20,7 +20,7 @@ function Sponsorspage() {
       <Sidenav />
       <Jumparrowright route="/about" />
       <Jumparrowleft route="/leaderboard" />
-      <Bottomnav />
+      {/* <Bottomnav /> */}
       <Sponsors sponsor={sponsor} />
       <Footer />
     </div>

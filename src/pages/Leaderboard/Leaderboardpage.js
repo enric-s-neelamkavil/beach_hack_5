@@ -20,7 +20,7 @@ function Leaderboardpage() {
       <Sidenav />
       <Jumparrowright route="/sponsors" />
       <Jumparrowleft route="/schedule" />
-      <Bottomnav />
+      {/* <Bottomnav /> */}
       <Leaderboard />
       <Footer />
     </div>

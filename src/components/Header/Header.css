@@ -52,13 +52,14 @@
   color: var(--primary);
   transition: all 500ms ease 0s;
 }
-.header_devfolio_button_wrapper{
+.header_devfolio_button_wrapper {
   grid-column: -1;
   display: flex;
   align-items: center;
   justify-content: center;
-  width:270px;
-  border-radius: 5px;;
+  width: 270px;
+  height: 54px;
+  border-radius: 5px;
   overflow: hidden;
 }
 @media all and (max-width: 1000px) {

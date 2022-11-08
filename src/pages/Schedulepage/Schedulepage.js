@@ -21,7 +21,7 @@ function Schedulepage() {
       <Jumparrowright route="/leaderboard" />
       <Jumparrowleft route="/home" />
       <Sidenav />
-      <Bottomnav />
+      {/* <Bottomnav /> */}
       <Schedule />
       <Footer />
     </div>
