@@ -6,7 +6,7 @@ import "./Activesoonpage.css";
 function Activesoonpage() {
   return (
     <div className="active_soon_wrapper">
-      <span>The website will be active soon</span>
+      <span>Nothing here</span>
       <Devfoliobutton />
       <Button title="Go Back" url="/" />
     </div>
