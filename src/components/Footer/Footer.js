@@ -17,27 +17,27 @@ function Footer() {
           <img src={logo} alt="" />
           <ul>
             <li>
-              <a href="">
+              <a href="https://www.facebook.com/beachhackathon/" target="_blank_">
                 <AiOutlineFacebook />
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="https://instagram.com/beachhack?igshid=YmMyMTA2M2Y=" target="_blank_">
                 <AiOutlineInstagram />
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="">
                 <AiOutlineLinkedin />
               </a>
-            </li>
+            </li> */}
             <li>
-              <a href="">
+              <a href="https://twitter.com/beachhackathon?t=xr0TgB7Dxv-_UFS8BtVikA&s=09" target="_blank_">
                 <AiOutlineTwitter />
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="https://youtube.com/channel/UCJLkLiot0E7ya78gjcRr4nw" target="_blank_">
                 <AiOutlineYoutube />
               </a>
             </li>

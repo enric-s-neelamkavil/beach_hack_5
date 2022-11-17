@@ -58,8 +58,8 @@
   align-items: center;
   justify-content: center;
   width: 270px;
-  height: 54px;
-  border-radius: 5px;
+  height: 44px;
+  border-radius: 7px;
   overflow: hidden;
 }
 @media all and (max-width: 1000px) {
