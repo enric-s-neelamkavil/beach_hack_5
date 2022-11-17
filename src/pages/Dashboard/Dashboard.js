@@ -11,6 +11,7 @@ import Loading from "../../Loading";
 import Jumparrowright from "../../components/Jumparrow/Jumparrowright";
 import Association from "../../components/Association/Association";
 import { useLocation } from "react-router-dom";
+import Theme from "../../components/Theme/Theme";
 
 function Dashboard() {
   const [loading, isLoading] = useState(true);
@@ -59,6 +60,7 @@ function Dashboard() {
           <Jumparrowright route="/schedule" />
           <Home />
           <Association />
+          <Theme />
           <Events event={event} games={games} />
           <Leaderboard />
           <Footer />

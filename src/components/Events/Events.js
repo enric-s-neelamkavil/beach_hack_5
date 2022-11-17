@@ -11,8 +11,9 @@ function Events({ event, games }) {
         <Sectiontitle title="HAPPENINGS" />
         <div>
           {event
-            .map((eve) => (
+            .map((eve,index) => (
               <Eventcard
+              key={index}
                 image={eve.image}
                 title={eve.title}
                 description={eve.description}
@@ -23,8 +24,9 @@ function Events({ event, games }) {
             .reverse()}
         </div>
         <div>
-          {games.map((game) => (
+          {games.map((game,index) => (
             <Gamecard
+            key={index}
               image={game.image}
               title={game.title}
               url={game.url}
