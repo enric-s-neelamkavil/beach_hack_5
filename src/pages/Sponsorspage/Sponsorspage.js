@@ -7,6 +7,7 @@ import Sidenav from "../../components/Sidenav/Sidenav";
 import Jumparrowright from "../../components/Jumparrow/Jumparrowright";
 import Jumparrowleft from "../../components/Jumparrow/Jumparrowleft";
 import { useLocation } from "react-router-dom";
+import './Sponsospage.css'
 function Sponsorspage() {
   const { pathname } = useLocation();
 

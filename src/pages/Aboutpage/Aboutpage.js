@@ -7,6 +7,7 @@ import Sidenav from "../../components/Sidenav/Sidenav";
 import Jumparrowleft from "../../components/Jumparrow/Jumparrowleft";
 import Bottomnav from "../../components/Bottomnav/Bottomnav";
 import { useLocation } from "react-router-dom";
+import './Aboutpage.css'
 
 function Aboutpage() {
   const { pathname } = useLocation();
