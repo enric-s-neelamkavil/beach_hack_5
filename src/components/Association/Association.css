@@ -39,10 +39,21 @@
   }
 }
 @media all and (max-width: 600px) {
+  .association_wrapper {
+    padding: 10px;
+  }
   .association_inner_wrapper {
     gap: 15px;
   }
   .association_single > img {
-    width: 60px;
+    width: 55px;
+  }
+}
+@media all and (max-width: 375px) {
+  .association_inner_wrapper {
+    gap: 10px;
+  }
+  .association_single > img {
+    width: 51px;
   }
 }
