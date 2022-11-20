@@ -8,11 +8,11 @@
   box-shadow: 0px 0px 0px 0.2px white;
   padding: 20px;
   gap: 20px;
-  font-family: "Teko", sans-serif;
+  /* font-family: "Teko", sans-serif; */
 }
 .association_wrapper > h2 {
   color: var(--secondary);
-font-size: 3.5vw;
+font-size: 2vw;
 }
 .association_inner_wrapper {
   max-width: 1300px;
@@ -28,6 +28,9 @@ font-size: 3.5vw;
   width: 150px;
 }
 @media all and (max-width: 1000px) {
+  .association_wrapper > h2 {
+  font-size: 3vw;
+  }
   .association_single > img {
     width: 100px;
   }
@@ -44,6 +47,9 @@ font-size: 3.5vw;
   .association_wrapper {
     padding: 10px;
   }
+  .association_wrapper > h2 {
+    font-size: 4vw;
+    }
   .association_inner_wrapper {
     gap: 15px;
   }

@@ -78,3 +78,10 @@
 .footer_inner_wrapper_part_two > small {
   font-size: 12px;
 }
+@media all and (max-width:500px)
+{
+  .footer_inner_wrapper_part_15>h2{
+    font-size: 18px;
+    font-weight: 900;
+  }
+}
