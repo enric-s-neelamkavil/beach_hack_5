@@ -79,7 +79,9 @@
     flex-direction: column;
     justify-content: center;
     gap: 3px;
+    padding-right: 10px;
   }
+
 }
 @media all and (max-width: 500px) {
   .eventcard_wrapper {
