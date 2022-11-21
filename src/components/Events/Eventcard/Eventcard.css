@@ -53,6 +53,7 @@
 .ended {
   cursor: default;
   filter: grayscale(20);
+  pointer-events: none;
 }
 @media all and (max-width: 839px) {
   .eventcard_wrapper {
