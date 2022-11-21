@@ -7,6 +7,14 @@ export const event = [
     isActive: false,
   },
   {
+    image: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/events%2Fideathon.jpeg?alt=media&token=5e866f24-9bda-44e4-a4f2-21d5dc733aad`,
+    title: "IDEATHON",
+    description: `Everything begins with an idea
+    - Earl Nightingale`,
+    url: `https://forms.gle/QXt6rJbr2au4hHG96`,
+    isActive: false,
+  },
+  {
     image: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/events%2FSelfie%20Contest.jpg?alt=media&token=103fb421-d203-468f-8a7f-9c515a8e2d94`,
     title: `Selfie Contest`,
     description: `Snap to win!!!
@@ -29,14 +37,7 @@ export const event = [
     url: "https://docs.google.com/forms/d/e/1FAIpQLSeKH01z7LQqzSwnHBhfJkUvhZTSuD-wcP9bP7dBFTbVWJFD3w/viewform",
     isActive: true,
   },
-  {
-    image: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/events%2Fideathon.jpeg?alt=media&token=5e866f24-9bda-44e4-a4f2-21d5dc733aad`,
-    title: "IDEATHON",
-    description: `Everything begins with an idea
-    - Earl Nightingale`,
-    url: `https://forms.gle/QXt6rJbr2au4hHG96`,
-    isActive: true,
-  },
+  
   // {
   //   image: require(`../../assets/images/question.png`),
   //   title: `Drawing contest`,
