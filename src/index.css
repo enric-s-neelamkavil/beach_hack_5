@@ -11,7 +11,13 @@ body {
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background-color:rgba(0,0,0,0.5);
+  background-image: url(https://images.unsplash.com/photo-1602475063211-3d98d60e3b1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z3JhaW4lMjB0ZXh0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+  background-size: 50% auto;
+  background-position: right;
+  background-repeat: repeat;
+  /* background-color: rgba(0,0,0,0.5); */
+  background-blend-mode: color;
   font-family: "poppins", sans-serif;
   font-family: "Manrope", sans-serif;
 }

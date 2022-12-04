@@ -5,7 +5,7 @@ import closed from "../../../assets/images/closed.png";
 
 function Eventcard({ image, title, description, url, isActive, key }) {
   return (
-    <div className="eventcard_wrapper" key={key}>
+    <div className="eventcard_wrapper" key={key} data-aos="fade-up">
       <div className="eventcard_wrapper_image_wrapper">
         <img src={image} alt="" loading="lazy" />
       </div>

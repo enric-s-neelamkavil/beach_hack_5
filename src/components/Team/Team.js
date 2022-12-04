@@ -2,9 +2,8 @@ import React from "react";
 import Sectiontitle from "../Sectiontitle/Sectiontitle";
 import "./Team.css";
 import Teamcard from "./Teamcard/Teamcard";
-import { team } from "./Teamdata";
 
-function Team() {
+function Team({team}) {
   return (
     <div className="team_wrapper">
       <Sectiontitle title="TEAM" />

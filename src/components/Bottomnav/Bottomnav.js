@@ -4,6 +4,7 @@ import "./Bottomnav.css";
 import { useLocation } from "react-router-dom";
 import discord from "../../assets/images/discord.png";
 import { FaArrowUp } from "react-icons/fa";
+import Button from '../Button/Button'
 function Bottomnav() {
   let location = useLocation();
   const [basenav, setBasenav] = useState(true);
@@ -29,7 +30,8 @@ function Bottomnav() {
             <img src={discord} alt="" />
           </a>
           <div style={{ height: "44px", overflow: "hidden" }}>
-            <Devfoliobutton />
+            {/* <Devfoliobutton /> */}
+            <Button title="Applications Closed"/>
           </div>
           <a href="#home" onClick={scrollingToTop}>
             <FaArrowUp className="arrow_to_top" />

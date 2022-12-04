@@ -14,9 +14,9 @@ function Home() {
         while simultaneously improving their critical and creative thinking.
       </p>
       <div className="dashboard_home_counter_wrapper">
-        <Counter num="30" title="Hrs of Coding" />
-        <Counter num="60" title="Teams" />
-        <Counter num="30" title="Colleges" />
+        <Counter num="24" title="Hrs of Coding" />
+        <Counter num="100" title="Teams" />
+        <Counter num="50" title="Colleges" />
       </div>
     </div>
   );

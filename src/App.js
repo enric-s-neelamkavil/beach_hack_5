@@ -10,8 +10,14 @@ import Aboutpage from "./pages/Aboutpage/Aboutpage";
 import Activesoonpage from "./pages/Activesoonpage/Activesoonpage";
 import Bottomnav from "./components/Bottomnav/Bottomnav";
 import Header from "./components/Header/Header";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 
 function App() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <>
       <BrowserRouter>

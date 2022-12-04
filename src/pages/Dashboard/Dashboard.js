@@ -12,6 +12,8 @@ import Jumparrowright from "../../components/Jumparrow/Jumparrowright";
 import Association from "../../components/Association/Association";
 import { useLocation } from "react-router-dom";
 import Theme from "../../components/Theme/Theme";
+import Gallery from "../../components/Gallery/Gallery";
+import Registrationcount from "../../components/Registrationcount/Registrationcount";
 
 function Dashboard() {
   const [loading, isLoading] = useState(true);
@@ -61,7 +63,9 @@ function Dashboard() {
           <Home />
           <Association />
           <Theme />
+          <Registrationcount />
           <Events event={event} games={games} />
+          <Gallery />
           <Leaderboard />
           <Footer />
         </div>

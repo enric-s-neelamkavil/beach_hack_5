@@ -17,7 +17,7 @@ export const team = [
   {
     image: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/team%2Fpranav%20madhu.jpg?alt=media&token=0c58be53-b5f9-4dd1-bb9a-3784530606c7`,
     name: `PRANAV MADHU`,
-    designation: "Teachnical Head",
+    designation: "Technical Head",
   },
   {
     image: `https://firebasestorage.googleapis.com/v0/b/beachhack5.appspot.com/o/team%2Fenric.jpg?alt=media&token=3064e78c-a6e8-4f45-81cf-187a56534518`,

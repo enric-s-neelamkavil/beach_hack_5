@@ -1,5 +1,5 @@
 .theme_wrapper {
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -24,16 +24,70 @@
   color: white;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 2vw;
   min-width: 330px;
   font-family: "Teko", sans-serif;
 
 }
-.themeTitle{
-  font-size: 7vw;
+.theme_title_wrapper>h1{
+  font-family: 'Manrope',sans-serif;
+  font-size: 2vw;
+}
+.theme_title_inner_wrapper{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height:50px ;
+  text-align: center;
+}
+.theme_title_inner_wrapper>h2 {
+	color: #fff;
+	font-size: 7vw;
   font-weight: 600;
-  margin-top: -15px;
-  margin-bottom: 20px;
+  margin-top: 2vw;
+  margin-bottom: 3vw;
+	position: absolute;
+  text-align: center;
+}
+
+.theme_title_inner_wrapper h2:nth-child(1) {
+	color: transparent;
+	-webkit-text-stroke: 1px var(--secondary);
+}
+.theme_title_inner_wrapper h2:nth-child(2) {
+	color: var(--primary);
+	animation: animate 4s ease-in-out infinite;
+}
+@keyframes animate {
+	0%,
+	100% {
+		clip-path: polygon(
+			0% 45%,
+			16% 44%,
+			33% 50%,
+			54% 60%,
+			70% 61%,
+			84% 59%,
+			100% 52%,
+			100% 100%,
+			0% 100%
+		);
+	}
+
+	50% {
+		clip-path: polygon(
+			0% 60%,
+			15% 65%,
+			34% 66%,
+			51% 62%,
+			67% 50%,
+			84% 45%,
+			100% 46%,
+			100% 100%,
+			0% 100%
+		);
+	}
 }
 .theme_problem_wrapper {
   position: relative;
@@ -47,18 +101,23 @@
   color: white;
   box-shadow: 0px 0px 0px 0.2px white;
 }
+.theme_problem_wrapper>h2{
+  font-size: 2vw;
+}
 .problem_list {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  list-style-type:circle;
 }
 .absoluteSpan {
   position: absolute;
   bottom: 20px;
   right: 20px;
   color: red;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 12px;
+  letter-spacing: 0.1vw;
 }
 .problemAbsoluteDiv {
   position: absolute;
@@ -82,21 +141,35 @@
   gap:30px;
   padding:20px;
 }
+.pitch_submit{
+  align-self: flex-end;
+  text-decoration: none;
+  background-color: var(--primary);
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content;
+  color: white;
+  font-weight: 900;
+}
 
 @media all and (max-width: 1000px) {
   .theme_title_wrapper {
     padding: 30px 30px 30px 50px;
   }
+  .theme_title_wrapper>h1{
+    font-size: 3.5vw;
+  }
   .theme_problem_wrapper {
     padding: 30px 30px 30px 50px;
+  }
+  .theme_problem_wrapper>h2{
+    font-size: 3.5vw;
+
   }
 }
 @media all and (max-width: 500px) {
   .theme_wrapper {
     padding: 0px 10px 0px 10px;
-  }
-  .theme_title_wrapper {
-    padding: 15px 15px 15px 25px;
   }
   .theme_problem_wrapper {
     padding: 15px 15px 15px 35px;

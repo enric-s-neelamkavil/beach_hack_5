@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   /* background: url(../../assets/images/footerbg.png); */
+  /* background-color: black; */
   background-size: cover;
   background-position: center top;
 }
@@ -53,10 +54,14 @@
   color:var(--secondary);
   display: flex;
   flex-direction: column;
-  gap:10px;
+  gap:5px;
   align-items: center;
 }
+.footer_inner_wrapper_part_15>h2{
+  margin-bottom: 10px
+}
 .footer_inner_wrapper_part_15>a{
+  font-size: 12px;
   text-decoration: none;
   color:var(--secondary);
   display: flex;

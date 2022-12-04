@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+  import React, { useState, useEffect } from "react";
 import "./Counter.css";
 function Counter({ num, title }) {
   const [number, setNumber] = useState(0);
@@ -9,7 +9,7 @@ function Counter({ num, title }) {
     function incrementer() {
       setNumber(number + 1);
     }
-  }, [number]);
+  }, [number,num]);
   return (
     <div className="counter_wrapper">
       <span className="counter_number">{number}</span>

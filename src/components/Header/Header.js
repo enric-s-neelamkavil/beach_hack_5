@@ -4,6 +4,8 @@ import "./Header.css";
 import Button from "../Button/Button";
 import logo from "../../assets/images/logowhite.png";
 import bg from "../../assets/images/bg.svg";
+import devfolio from "../../assets/images/devfolio.png";
+
 import Devfoliobutton from "../Devfoliobutton/Devfoliobutton";
 import { useLocation } from "react-router-dom";
 
@@ -51,7 +53,8 @@ function Header({ anchorlinks }) {
           </ul>
         </nav>
         <div className="header_devfolio_button_wrapper">
-          <Devfoliobutton />
+          {/* <Devfoliobutton /> */}
+<Button image={devfolio} title="Applications Closed" />
         </div>
       </header>
     );

@@ -27,8 +27,8 @@ function Schedulesingle({ date, title, description, flag, data, index }) {
           )}
         </div>
         <span>{date}</span>
-        <h3>{title}</h3>
-        {description && <p>{description}</p>}
+        <h3 data-aos="fade-up">{title}</h3>
+        {description && <p data-aos="fade-up" data-aos-delay="200">{description}</p>}
       </div>
     </div>
   );

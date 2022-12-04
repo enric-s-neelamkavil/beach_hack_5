@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  min-height: 100vh;
+min-height: 100vh;
   gap: 30px;
   padding: 0px;
 }
@@ -40,5 +40,9 @@
     font-size: 11px;
     line-height: normal;
     letter-spacing: 1;
+  }
+  .dashboard_home_wrapper {
+    min-height: 80vh;
+    max-height: 80vh;
   }
 }

@@ -22,9 +22,10 @@ function Hero() {
           title="Apply with Devfolio"
           // content="Apply with"
         /> */}
-        <div style={{ height: "44px", overflow: "hidden" }}>
+        {/* <div style={{ height: "44px", overflow: "hidden" }}>
           <Devfoliobutton />
-        </div>
+        </div> */}
+        <Button image={devfolio} title="Applications Closed"/>
         <Button
           image={discord}
           title="Join us on Discord"
