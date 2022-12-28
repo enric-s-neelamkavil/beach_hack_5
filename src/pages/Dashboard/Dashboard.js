@@ -14,6 +14,7 @@ import { useLocation } from "react-router-dom";
 import Theme from "../../components/Theme/Theme";
 import Gallery from "../../components/Gallery/Gallery";
 import Registrationcount from "../../components/Registrationcount/Registrationcount";
+import Mapcomponent from '../../components/Mapcomponent/Mapcompoenet'
 
 function Dashboard() {
   const [loading, isLoading] = useState(true);
@@ -67,6 +68,7 @@ function Dashboard() {
           <Events event={event} games={games} />
           <Gallery />
           <Leaderboard />
+          <Mapcomponent />
           <Footer />
         </div>
       ) : (
