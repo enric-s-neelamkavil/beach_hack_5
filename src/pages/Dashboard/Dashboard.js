@@ -67,7 +67,7 @@ function Dashboard() {
           <Registrationcount />
           <Events event={event} games={games} />
           <Gallery />
-          <Leaderboard />
+          {/* <Leaderboard /> */}
           <Mapcomponent />
           <Footer />
         </div>

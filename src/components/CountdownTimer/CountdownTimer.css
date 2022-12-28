@@ -1,0 +1,10 @@
+.countdownTimerWrapper{
+display: flex;
+gap:10px;
+}
+.time-wrapper{
+  display: flex;
+  gap:1px;
+  font-weight: bolder;
+  /* font-family: 'poppins',sans-serif; */
+}

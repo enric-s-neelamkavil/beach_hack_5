@@ -8,7 +8,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 60px;
+  gap: 50px;
   position: relative;
 }
 .home_hero_wrapper_welcome_content {
