@@ -20,12 +20,11 @@ const renderTime = (dimension, time) => {
     </div>
   );
 };
-
 export default function CountdownTimer() {
   const stratTime = Date.now() / 1000; // use UNIX timestamp in seconds
   console.log(stratTime)
   console.log(Date.now())
-  const endTime = (1672193451580+97200000)/1000; // use UNIX timestamp in seconds
+  const endTime = (1672314747197+86400000)/1000;
 
   const remainingTime = endTime - stratTime;
   const days = Math.ceil(remainingTime / daySeconds);

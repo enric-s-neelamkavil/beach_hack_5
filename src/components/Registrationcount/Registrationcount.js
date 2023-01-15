@@ -4,31 +4,33 @@ import Sectiontitle from "../Sectiontitle/Sectiontitle";
 import "./Registrationcount.css";
 
 function Registrationcount() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(86);
   const [dataa, setData] = useState([]);
 
   // Accept: application/json
 
   const intermdeiate = [];
-  const countFetch = async () => {
-    await fetch(process.env.REACT_APP_SPREADHSEET_API)
-      .then((response) => {
-        return response.json();
-      })
-      .then((data) => {
-        data.values.map((dat) => {
-          if (!intermdeiate.includes(dat[0])) {
-            intermdeiate.push(dat[0]);
-          }
-        });
-      })
-      .then(() => {
-        setData(intermdeiate);
-        setCount(intermdeiate.length-1);
-      });
-  };
+  // const countFetch = async () => {
+  //   await fetch(process.env.REACT_APP_SPREADHSEET_API)
+  //     .then((response) => {
+  //       return response.json();
+  //     })
+  //     .then((data) => {
+  //       data.values.map((dat) => {
+  //         if (!intermdeiate.includes(dat[0])) {
+  //           intermdeiate.push(dat[0]);
+  //         }
+  //       });
+  //     })
+  //     .then(() => {
+  //       setData(intermdeiate);
+  //       setCount(intermdeiate.length-1);
+  //     });
+  // };
   useEffect(() => {
-    countFetch();
+    // countFetch();
+    setData(["Team 420","ACE","Quatro","Unfold","Ryzen Sharks","THEXTRUDER Alpha","Kuni","VCoders","Bytecode","Code Red","TECH_ED","Team-not-found","THEXTRUDER BETA"])
+
   }, []);
   return (
     <div
@@ -43,11 +45,12 @@ function Registrationcount() {
         gap: "2vw",
       }}
     >
+      <Sectiontitle title="REGISTRATIONS" />
+
       <div>
-        Registrations:
         <Counter num={count} />
       </div>
-      <Sectiontitle title="TEAM NAMES" />
+      <Sectiontitle title="SHORTLISTED TEAMS" />
       <div
         style={{
           display: "inline-flex",
